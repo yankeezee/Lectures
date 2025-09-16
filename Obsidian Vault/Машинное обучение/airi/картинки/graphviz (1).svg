@@ -1,0 +1,455 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1441pt" height="1165pt" viewBox="0.00 0.00 1441.00 1165.02">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1161.02)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-1161.02 1437,-1161.02 1437,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_foundations</title>
+<polygon fill="none" stroke="black" points="741,-624 741,-1060.8 967,-1060.8 967,-624 741,-624"/>
+<text text-anchor="middle" x="854" y="-1044.2" font-family="Times,serif" font-size="14.00">1. Foundations</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_scaling</title>
+<polygon fill="none" stroke="black" points="8,-462.4 8,-616 318,-616 318,-462.4 8,-462.4"/>
+<text text-anchor="middle" x="163" y="-599.4" font-family="Times,serif" font-size="14.00">2. Scaling RL</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_deep_rl</title>
+<polygon fill="none" stroke="black" points="326,-236.8 326,-539.2 773,-539.2 773,-236.8 326,-236.8"/>
+<text text-anchor="middle" x="549.5" y="-522.6" font-family="Times,serif" font-size="14.00">3. Deep RL Renaissance</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_stable</title>
+<polygon fill="none" stroke="black" points="108,-152 108,-390.4 318,-390.4 318,-152 108,-152"/>
+<text text-anchor="middle" x="213" y="-373.8" font-family="Times,serif" font-size="14.00">4. Stable Policy Optimization</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_offline</title>
+<polygon fill="none" stroke="black" points="781,-80 781,-313.6 1141,-313.6 1141,-80 781,-80"/>
+<text text-anchor="middle" x="961" y="-297" font-family="Times,serif" font-size="14.00">5. Offline Reinforcement Learning</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_meta</title>
+<polygon fill="none" stroke="black" points="1179,-912 1179,-1149.02 1379,-1149.02 1379,-912 1179,-912"/>
+<text text-anchor="middle" x="1279" y="-1132.42" font-family="Times,serif" font-size="14.00">6. Meta RL</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_tabula</title>
+<polygon fill="none" stroke="black" points="1149,-8 1149,-228.8 1425,-228.8 1425,-8 1149,-8"/>
+<text text-anchor="middle" x="1287" y="-212.2" font-family="Times,serif" font-size="14.00">7. Beyond Tabula Rasa</text>
+</g>
+<!-- Reinforcement Learning\nA Birds&#45;Eye View -->
+<g id="node1" class="node">
+<title>Reinforcement Learning\nA Birds-Eye View</title>
+<ellipse fill="none" stroke="black" cx="914" cy="-1098.22" rx="108.34" ry="29.42"/>
+<text text-anchor="middle" x="914" y="-1102.42" font-family="Times,serif" font-size="14.00">Reinforcement Learning</text>
+<text text-anchor="middle" x="914" y="-1085.62" font-family="Times,serif" font-size="14.00">A Birds-Eye View</text>
+</g>
+<!-- MDP -->
+<g id="node2" class="node">
+<title>MDP</title>
+<ellipse fill="none" stroke="black" cx="897" cy="-1010" rx="31.97" ry="18"/>
+<text text-anchor="middle" x="897" y="-1005.8" font-family="Times,serif" font-size="14.00">MDP</text>
+</g>
+<!-- Reinforcement Learning\nA Birds&#45;Eye View&#45;&gt;MDP -->
+<g id="edge32" class="edge">
+<title>Reinforcement Learning\nA Birds-Eye View-&gt;MDP</title>
+<path fill="none" stroke="black" d="M908.34,-1068.51C906.49,-1059.14 904.44,-1048.75 902.6,-1039.4"/>
+<polygon fill="black" stroke="black" points="906.07,-1038.9 900.7,-1029.76 899.2,-1040.25 906.07,-1038.9"/>
+</g>
+<!-- Function Approximation -->
+<g id="node8" class="node">
+<title>Function Approximation</title>
+<ellipse fill="none" stroke="black" cx="203" cy="-565.2" rx="106.79" ry="18"/>
+<text text-anchor="middle" x="203" y="-561" font-family="Times,serif" font-size="14.00">Function Approximation</text>
+</g>
+<!-- Reinforcement Learning\nA Birds&#45;Eye View&#45;&gt;Function Approximation -->
+<g id="edge33" class="edge">
+<title>Reinforcement Learning\nA Birds-Eye View-&gt;Function Approximation</title>
+<path fill="none" stroke="black" d="M811.86,-1088.14C655.82,-1071.41 376,-1028.87 376,-939 376,-939 376,-939 376,-721 376,-655.39 306.05,-610.63 255.11,-586.73"/>
+<polygon fill="black" stroke="black" points="256.81,-583.66 246.26,-582.71 253.92,-590.03 256.81,-583.66"/>
+</g>
+<!-- Meta RL -->
+<g id="node28" class="node">
+<title>Meta RL</title>
+<ellipse fill="none" stroke="black" cx="1256" cy="-1010" rx="45.63" ry="18"/>
+<text text-anchor="middle" x="1256" y="-1005.8" font-family="Times,serif" font-size="14.00">Meta RL</text>
+</g>
+<!-- Reinforcement Learning\nA Birds&#45;Eye View&#45;&gt;Meta RL -->
+<g id="edge34" class="edge">
+<title>Reinforcement Learning\nA Birds-Eye View-&gt;Meta RL</title>
+<path fill="none" stroke="black" d="M1020.25,-1091.91C1068,-1087.1 1124.41,-1077.99 1173,-1060.8 1191.84,-1054.13 1211.09,-1042.91 1226.31,-1032.81"/>
+<polygon fill="black" stroke="black" points="1228.16,-1035.78 1234.43,-1027.24 1224.2,-1030.01 1228.16,-1035.78"/>
+</g>
+<!-- RLHF -->
+<g id="node31" class="node">
+<title>RLHF</title>
+<ellipse fill="none" stroke="black" cx="1193" cy="-178" rx="35.72" ry="18"/>
+<text text-anchor="middle" x="1193" y="-173.8" font-family="Times,serif" font-size="14.00">RLHF</text>
+</g>
+<!-- Reinforcement Learning\nA Birds&#45;Eye View&#45;&gt;RLHF -->
+<g id="edge35" class="edge">
+<title>Reinforcement Learning\nA Birds-Eye View-&gt;RLHF</title>
+<path fill="none" stroke="black" d="M998.32,-1079.41C1069.18,-1058.93 1159,-1017.48 1159,-939 1159,-939 1159,-939 1159,-338.6 1159,-291.42 1173.39,-238.08 1183.45,-206.56"/>
+<polygon fill="black" stroke="black" points="1186.65,-208.02 1186.45,-197.43 1180,-205.83 1186.65,-208.02"/>
+</g>
+<!-- Bellman Equations -->
+<g id="node3" class="node">
+<title>Bellman Equations</title>
+<ellipse fill="none" stroke="black" cx="868" cy="-938" rx="84.79" ry="18"/>
+<text text-anchor="middle" x="868" y="-933.8" font-family="Times,serif" font-size="14.00">Bellman Equations</text>
+</g>
+<!-- MDP&#45;&gt;Bellman Equations -->
+<g id="edge1" class="edge">
+<title>MDP-&gt;Bellman Equations</title>
+<path fill="none" stroke="black" d="M889.98,-992.05C886.82,-984.43 883.01,-975.23 879.46,-966.65"/>
+<polygon fill="black" stroke="black" points="882.8,-965.57 875.74,-957.67 876.33,-968.25 882.8,-965.57"/>
+</g>
+<!-- Policy Iteration -->
+<g id="node4" class="node">
+<title>Policy Iteration</title>
+<ellipse fill="none" stroke="black" cx="860" cy="-866" rx="70.84" ry="18"/>
+<text text-anchor="middle" x="860" y="-861.8" font-family="Times,serif" font-size="14.00">Policy Iteration</text>
+</g>
+<!-- Bellman Equations&#45;&gt;Policy Iteration -->
+<g id="edge2" class="edge">
+<title>Bellman Equations-&gt;Policy Iteration</title>
+<path fill="none" stroke="black" d="M866.02,-919.7C865.19,-912.41 864.2,-903.73 863.26,-895.54"/>
+<polygon fill="black" stroke="black" points="866.74,-895.15 862.13,-885.61 859.78,-895.94 866.74,-895.15"/>
+</g>
+<!-- On&#45;Policy vs Off&#45;Policy -->
+<g id="node5" class="node">
+<title>On-Policy vs Off-Policy</title>
+<ellipse fill="none" stroke="black" cx="854" cy="-794" rx="105.45" ry="18"/>
+<text text-anchor="middle" x="854" y="-789.8" font-family="Times,serif" font-size="14.00">On-Policy vs Off-Policy</text>
+</g>
+<!-- Policy Iteration&#45;&gt;On&#45;Policy vs Off&#45;Policy -->
+<g id="edge3" class="edge">
+<title>Policy Iteration-&gt;On-Policy vs Off-Policy</title>
+<path fill="none" stroke="black" d="M858.52,-847.7C857.89,-840.41 857.15,-831.73 856.45,-823.54"/>
+<polygon fill="black" stroke="black" points="859.94,-823.28 855.6,-813.61 852.96,-823.87 859.94,-823.28"/>
+</g>
+<!-- TD Learning -->
+<g id="node6" class="node">
+<title>TD Learning</title>
+<ellipse fill="none" stroke="black" cx="832" cy="-722" rx="61.18" ry="18"/>
+<text text-anchor="middle" x="832" y="-717.8" font-family="Times,serif" font-size="14.00">TD Learning</text>
+</g>
+<!-- On&#45;Policy vs Off&#45;Policy&#45;&gt;TD Learning -->
+<g id="edge4" class="edge">
+<title>On-Policy vs Off-Policy-&gt;TD Learning</title>
+<path fill="none" stroke="black" d="M848.56,-775.7C846.22,-768.24 843.42,-759.32 840.79,-750.97"/>
+<polygon fill="black" stroke="black" points="844.17,-750.04 837.83,-741.55 837.49,-752.14 844.17,-750.04"/>
+</g>
+<!-- Q&#45;Learning -->
+<g id="node7" class="node">
+<title>Q-Learning</title>
+<ellipse fill="none" stroke="black" cx="807" cy="-650" rx="56.08" ry="18"/>
+<text text-anchor="middle" x="807" y="-645.8" font-family="Times,serif" font-size="14.00">Q-Learning</text>
+</g>
+<!-- TD Learning&#45;&gt;Q&#45;Learning -->
+<g id="edge5" class="edge">
+<title>TD Learning-&gt;Q-Learning</title>
+<path fill="none" stroke="black" d="M825.82,-703.7C823.13,-696.15 819.9,-687.12 816.89,-678.68"/>
+<polygon fill="black" stroke="black" points="820.28,-677.77 813.62,-669.53 813.69,-680.12 820.28,-677.77"/>
+</g>
+<!-- Q&#45;Learning&#45;&gt;Function Approximation -->
+<g id="edge6" class="edge">
+<title>Q-Learning-&gt;Function Approximation</title>
+<path fill="none" stroke="black" d="M756.02,-642.01C654.22,-628.06 424.47,-596.56 295.42,-578.87"/>
+<polygon fill="black" stroke="black" points="295.9,-575.4 285.52,-577.51 294.95,-582.34 295.9,-575.4"/>
+</g>
+<!-- Deadly Triad -->
+<g id="node9" class="node">
+<title>Deadly Triad</title>
+<ellipse fill="none" stroke="black" cx="78" cy="-488.4" rx="62.25" ry="18"/>
+<text text-anchor="middle" x="78" y="-484.2" font-family="Times,serif" font-size="14.00">Deadly Triad</text>
+</g>
+<!-- Function Approximation&#45;&gt;Deadly Triad -->
+<g id="edge7" class="edge">
+<title>Function Approximation-&gt;Deadly Triad</title>
+<path fill="none" stroke="black" d="M165.67,-547.98C160,-545.21 154.28,-542.24 149,-539.2 135.07,-531.17 120.41,-521.18 108.05,-512.26"/>
+<polygon fill="black" stroke="black" points="110.45,-509.68 100.31,-506.58 106.31,-515.32 110.45,-509.68"/>
+</g>
+<!-- Policy Gradients -->
+<g id="node10" class="node">
+<title>Policy Gradients</title>
+<ellipse fill="none" stroke="black" cx="234" cy="-488.4" rx="75.67" ry="18"/>
+<text text-anchor="middle" x="234" y="-484.2" font-family="Times,serif" font-size="14.00">Policy Gradients</text>
+</g>
+<!-- Function Approximation&#45;&gt;Policy Gradients -->
+<g id="edge8" class="edge">
+<title>Function Approximation-&gt;Policy Gradients</title>
+<path fill="none" stroke="black" d="M210.19,-546.85C213.83,-538.07 218.33,-527.2 222.44,-517.28"/>
+<polygon fill="black" stroke="black" points="225.67,-518.63 226.27,-508.05 219.21,-515.95 225.67,-518.63"/>
+</g>
+<!-- DQN -->
+<g id="node11" class="node">
+<title>DQN</title>
+<ellipse fill="none" stroke="black" cx="441" cy="-488.4" rx="31.96" ry="18"/>
+<text text-anchor="middle" x="441" y="-484.2" font-family="Times,serif" font-size="14.00">DQN</text>
+</g>
+<!-- Function Approximation&#45;&gt;DQN -->
+<g id="edge9" class="edge">
+<title>Function Approximation-&gt;DQN</title>
+<path fill="none" stroke="black" d="M274.67,-551.44C290.41,-548 306.88,-543.9 322,-539.2 351.35,-530.07 383.44,-516.41 406.89,-505.71"/>
+<polygon fill="black" stroke="black" points="408.36,-508.88 415.96,-501.51 405.42,-502.53 408.36,-508.88"/>
+</g>
+<!-- TRPO -->
+<g id="node17" class="node">
+<title>TRPO</title>
+<ellipse fill="none" stroke="black" cx="196" cy="-339.6" rx="35.72" ry="18"/>
+<text text-anchor="middle" x="196" y="-335.4" font-family="Times,serif" font-size="14.00">TRPO</text>
+</g>
+<!-- Policy Gradients&#45;&gt;TRPO -->
+<g id="edge15" class="edge">
+<title>Policy Gradients-&gt;TRPO</title>
+<path fill="none" stroke="black" d="M229.49,-469.98C223,-444.91 210.95,-398.37 203.22,-368.48"/>
+<polygon fill="black" stroke="black" points="206.66,-367.81 200.76,-359.01 199.88,-369.56 206.66,-367.81"/>
+</g>
+<!-- DDPG -->
+<g id="node12" class="node">
+<title>DDPG</title>
+<ellipse fill="none" stroke="black" cx="371" cy="-416.4" rx="37.33" ry="18"/>
+<text text-anchor="middle" x="371" y="-412.2" font-family="Times,serif" font-size="14.00">DDPG</text>
+</g>
+<!-- DQN&#45;&gt;DDPG -->
+<g id="edge10" class="edge">
+<title>DQN-&gt;DDPG</title>
+<path fill="none" stroke="black" d="M425.81,-472.21C416.67,-463.07 404.85,-451.25 394.52,-440.92"/>
+<polygon fill="black" stroke="black" points="397.26,-438.71 387.71,-434.11 392.31,-443.66 397.26,-438.71"/>
+</g>
+<!-- Experience Replay -->
+<g id="node14" class="node">
+<title>Experience Replay</title>
+<ellipse fill="none" stroke="black" cx="511" cy="-416.4" rx="84.23" ry="18"/>
+<text text-anchor="middle" x="511" y="-412.2" font-family="Times,serif" font-size="14.00">Experience Replay</text>
+</g>
+<!-- DQN&#45;&gt;Experience Replay -->
+<g id="edge12" class="edge">
+<title>DQN-&gt;Experience Replay</title>
+<path fill="none" stroke="black" d="M456.19,-472.21C464.98,-463.42 476.27,-452.13 486.31,-442.09"/>
+<polygon fill="black" stroke="black" points="488.71,-444.64 493.3,-435.1 483.76,-439.69 488.71,-444.64"/>
+</g>
+<!-- Target Networks -->
+<g id="node15" class="node">
+<title>Target Networks</title>
+<ellipse fill="none" stroke="black" cx="689" cy="-416.4" rx="76.2" ry="18"/>
+<text text-anchor="middle" x="689" y="-412.2" font-family="Times,serif" font-size="14.00">Target Networks</text>
+</g>
+<!-- DQN&#45;&gt;Target Networks -->
+<g id="edge13" class="edge">
+<title>DQN-&gt;Target Networks</title>
+<path fill="none" stroke="black" d="M468.97,-479.51C508.03,-468.48 579.86,-448.21 630.81,-433.82"/>
+<polygon fill="black" stroke="black" points="631.54,-437.26 640.21,-431.17 629.64,-430.52 631.54,-437.26"/>
+</g>
+<!-- TD3 -->
+<g id="node13" class="node">
+<title>TD3</title>
+<ellipse fill="none" stroke="black" cx="549" cy="-339.6" rx="28.74" ry="18"/>
+<text text-anchor="middle" x="549" y="-335.4" font-family="Times,serif" font-size="14.00">TD3</text>
+</g>
+<!-- DDPG&#45;&gt;TD3 -->
+<g id="edge11" class="edge">
+<title>DDPG-&gt;TD3</title>
+<path fill="none" stroke="black" d="M398.42,-403.88C429.84,-390.68 481.33,-369.04 515.2,-354.8"/>
+<polygon fill="black" stroke="black" points="516.27,-358.15 524.13,-351.05 513.56,-351.7 516.27,-358.15"/>
+</g>
+<!-- SAC -->
+<g id="node19" class="node">
+<title>SAC</title>
+<ellipse fill="none" stroke="black" cx="280" cy="-339.6" rx="29.82" ry="18"/>
+<text text-anchor="middle" x="280" y="-335.4" font-family="Times,serif" font-size="14.00">SAC</text>
+</g>
+<!-- DDPG&#45;&gt;SAC -->
+<g id="edge17" class="edge">
+<title>DDPG-&gt;SAC</title>
+<path fill="none" stroke="black" d="M343.64,-403.85C336.25,-400.11 328.51,-395.57 322,-390.4 313.02,-383.27 304.57,-373.98 297.64,-365.36"/>
+<polygon fill="black" stroke="black" points="300.54,-363.4 291.67,-357.6 294.99,-367.67 300.54,-363.4"/>
+</g>
+<!-- Actor&#45;Critic -->
+<g id="node16" class="node">
+<title>Actor-Critic</title>
+<ellipse fill="none" stroke="black" cx="549" cy="-262.8" rx="58.23" ry="18"/>
+<text text-anchor="middle" x="549" y="-258.6" font-family="Times,serif" font-size="14.00">Actor-Critic</text>
+</g>
+<!-- TD3&#45;&gt;Actor&#45;Critic -->
+<g id="edge14" class="edge">
+<title>TD3-&gt;Actor-Critic</title>
+<path fill="none" stroke="black" d="M549,-321.25C549,-312.66 549,-302.07 549,-292.32"/>
+<polygon fill="black" stroke="black" points="552.5,-292.57 549,-282.57 545.5,-292.57 552.5,-292.57"/>
+</g>
+<!-- Offline RL -->
+<g id="node21" class="node">
+<title>Offline RL</title>
+<ellipse fill="none" stroke="black" cx="956" cy="-262.8" rx="53.68" ry="18"/>
+<text text-anchor="middle" x="956" y="-258.6" font-family="Times,serif" font-size="14.00">Offline RL</text>
+</g>
+<!-- TD3&#45;&gt;Offline RL -->
+<g id="edge19" class="edge">
+<title>TD3-&gt;Offline RL</title>
+<path fill="none" stroke="black" d="M577.66,-336.95C621.09,-334.12 706.03,-327.27 777,-313.6 822.07,-304.92 872.33,-290.5 908.09,-279.41"/>
+<polygon fill="black" stroke="black" points="908.77,-282.87 917.26,-276.54 906.67,-276.19 908.77,-282.87"/>
+</g>
+<!-- PPO -->
+<g id="node18" class="node">
+<title>PPO</title>
+<ellipse fill="none" stroke="black" cx="204" cy="-262.8" rx="28.75" ry="18"/>
+<text text-anchor="middle" x="204" y="-258.6" font-family="Times,serif" font-size="14.00">PPO</text>
+</g>
+<!-- TRPO&#45;&gt;PPO -->
+<g id="edge16" class="edge">
+<title>TRPO-&gt;PPO</title>
+<path fill="none" stroke="black" d="M197.86,-321.25C198.77,-312.66 199.91,-302.07 200.95,-292.32"/>
+<polygon fill="black" stroke="black" points="204.41,-292.88 201.99,-282.56 197.45,-292.13 204.41,-292.88"/>
+</g>
+<!-- Advantage Estimation -->
+<g id="node20" class="node">
+<title>Advantage Estimation</title>
+<ellipse fill="none" stroke="black" cx="213" cy="-178" rx="97.12" ry="18"/>
+<text text-anchor="middle" x="213" y="-173.8" font-family="Times,serif" font-size="14.00">Advantage Estimation</text>
+</g>
+<!-- PPO&#45;&gt;Advantage Estimation -->
+<g id="edge18" class="edge">
+<title>PPO-&gt;Advantage Estimation</title>
+<path fill="none" stroke="black" d="M205.86,-244.64C207.03,-233.95 208.55,-219.92 209.89,-207.57"/>
+<polygon fill="black" stroke="black" points="213.34,-208.24 210.94,-197.92 206.38,-207.49 213.34,-208.24"/>
+</g>
+<!-- AWAC -->
+<g id="node22" class="node">
+<title>AWAC</title>
+<ellipse fill="none" stroke="black" cx="830" cy="-178" rx="40.54" ry="18"/>
+<text text-anchor="middle" x="830" y="-173.8" font-family="Times,serif" font-size="14.00">AWAC</text>
+</g>
+<!-- Offline RL&#45;&gt;AWAC -->
+<g id="edge20" class="edge">
+<title>Offline RL-&gt;AWAC</title>
+<path fill="none" stroke="black" d="M919.76,-249.29C906.67,-243.96 892.14,-237.04 880,-228.8 869.66,-221.78 859.62,-212.45 851.29,-203.76"/>
+<polygon fill="black" stroke="black" points="853.95,-201.49 844.6,-196.51 848.81,-206.23 853.95,-201.49"/>
+</g>
+<!-- CQL -->
+<g id="node23" class="node">
+<title>CQL</title>
+<ellipse fill="none" stroke="black" cx="919" cy="-178" rx="30.35" ry="18"/>
+<text text-anchor="middle" x="919" y="-173.8" font-family="Times,serif" font-size="14.00">CQL</text>
+</g>
+<!-- Offline RL&#45;&gt;CQL -->
+<g id="edge21" class="edge">
+<title>Offline RL-&gt;CQL</title>
+<path fill="none" stroke="black" d="M948.33,-244.64C943.39,-233.58 936.85,-218.95 931.2,-206.31"/>
+<polygon fill="black" stroke="black" points="934.42,-204.93 927.15,-197.23 928.03,-207.79 934.42,-204.93"/>
+</g>
+<!-- IQL -->
+<g id="node24" class="node">
+<title>IQL</title>
+<ellipse fill="none" stroke="black" cx="994" cy="-178" rx="27.13" ry="18"/>
+<text text-anchor="middle" x="994" y="-173.8" font-family="Times,serif" font-size="14.00">IQL</text>
+</g>
+<!-- Offline RL&#45;&gt;IQL -->
+<g id="edge22" class="edge">
+<title>Offline RL-&gt;IQL</title>
+<path fill="none" stroke="black" d="M963.87,-244.64C969.04,-233.39 975.89,-218.46 981.76,-205.67"/>
+<polygon fill="black" stroke="black" points="984.77,-207.49 985.76,-196.94 978.41,-204.57 984.77,-207.49"/>
+</g>
+<!-- TD3+BC -->
+<g id="node25" class="node">
+<title>TD3+BC</title>
+<ellipse fill="none" stroke="black" cx="1086" cy="-178" rx="47.07" ry="18"/>
+<text text-anchor="middle" x="1086" y="-173.8" font-family="Times,serif" font-size="14.00">TD3+BC</text>
+</g>
+<!-- Offline RL&#45;&gt;TD3+BC -->
+<g id="edge23" class="edge">
+<title>Offline RL-&gt;TD3+BC</title>
+<path fill="none" stroke="black" d="M991.03,-248.79C1003.75,-243.4 1017.94,-236.58 1030,-228.8 1041.38,-221.45 1052.77,-211.84 1062.27,-203.03"/>
+<polygon fill="black" stroke="black" points="1064.52,-205.73 1069.33,-196.29 1059.68,-200.67 1064.52,-205.73"/>
+</g>
+<!-- Offline RL&#45;&gt;RLHF -->
+<g id="edge28" class="edge">
+<title>Offline RL-&gt;RLHF</title>
+<path fill="none" stroke="black" d="M1009.79,-261.22C1049.27,-258.77 1103.08,-251.07 1145,-228.8 1156.41,-222.74 1166.71,-212.97 1174.82,-203.69"/>
+<polygon fill="black" stroke="black" points="1177.29,-206.19 1180.92,-196.24 1171.87,-201.76 1177.29,-206.19"/>
+</g>
+<!-- ReBRAC -->
+<g id="node26" class="node">
+<title>ReBRAC</title>
+<ellipse fill="none" stroke="black" cx="1085" cy="-106" rx="48.06" ry="18"/>
+<text text-anchor="middle" x="1085" y="-101.8" font-family="Times,serif" font-size="14.00">ReBRAC</text>
+</g>
+<!-- TD3+BC&#45;&gt;ReBRAC -->
+<g id="edge24" class="edge">
+<title>TD3+BC-&gt;ReBRAC</title>
+<path fill="none" stroke="black" d="M1085.75,-159.7C1085.65,-152.41 1085.52,-143.73 1085.41,-135.54"/>
+<polygon fill="black" stroke="black" points="1088.91,-135.57 1085.27,-125.62 1081.91,-135.67 1088.91,-135.57"/>
+</g>
+<!-- RL² -->
+<g id="node27" class="node">
+<title>RL²</title>
+<ellipse fill="none" stroke="black" cx="1229" cy="-1098.22" rx="28.2" ry="18"/>
+<text text-anchor="middle" x="1229" y="-1094.02" font-family="Times,serif" font-size="14.00">RL²</text>
+</g>
+<!-- RL²&#45;&gt;Meta RL -->
+<g id="edge25" class="edge">
+<title>RL²-&gt;Meta RL</title>
+<path fill="none" stroke="black" d="M1234.33,-1080.18C1238.01,-1068.45 1242.97,-1052.59 1247.23,-1039.02"/>
+<polygon fill="black" stroke="black" points="1250.48,-1040.33 1250.13,-1029.74 1243.8,-1038.23 1250.48,-1040.33"/>
+</g>
+<!-- Few&#45;shot Adaptation -->
+<g id="node30" class="node">
+<title>Few-shot Adaptation</title>
+<ellipse fill="none" stroke="black" cx="1279" cy="-938" rx="92.3" ry="18"/>
+<text text-anchor="middle" x="1279" y="-933.8" font-family="Times,serif" font-size="14.00">Few-shot Adaptation</text>
+</g>
+<!-- Meta RL&#45;&gt;Few&#45;shot Adaptation -->
+<g id="edge27" class="edge">
+<title>Meta RL-&gt;Few-shot Adaptation</title>
+<path fill="none" stroke="black" d="M1261.69,-991.7C1264.14,-984.24 1267.07,-975.32 1269.81,-966.97"/>
+<polygon fill="black" stroke="black" points="1273.11,-968.14 1272.91,-957.54 1266.46,-965.95 1273.11,-968.14"/>
+</g>
+<!-- MAML -->
+<g id="node29" class="node">
+<title>MAML</title>
+<ellipse fill="none" stroke="black" cx="1316" cy="-1098.22" rx="41.08" ry="18"/>
+<text text-anchor="middle" x="1316" y="-1094.02" font-family="Times,serif" font-size="14.00">MAML</text>
+</g>
+<!-- MAML&#45;&gt;Meta RL -->
+<g id="edge26" class="edge">
+<title>MAML-&gt;Meta RL</title>
+<path fill="none" stroke="black" d="M1304.43,-1080.59C1295.85,-1068.27 1284,-1051.23 1274.16,-1037.09"/>
+<polygon fill="black" stroke="black" points="1277.19,-1035.32 1268.6,-1029.11 1271.44,-1039.32 1277.19,-1035.32"/>
+</g>
+<!-- RLVR -->
+<g id="node32" class="node">
+<title>RLVR</title>
+<ellipse fill="none" stroke="black" cx="1194" cy="-106" rx="36.79" ry="18"/>
+<text text-anchor="middle" x="1194" y="-101.8" font-family="Times,serif" font-size="14.00">RLVR</text>
+</g>
+<!-- RLHF&#45;&gt;RLVR -->
+<g id="edge29" class="edge">
+<title>RLHF-&gt;RLVR</title>
+<path fill="none" stroke="black" d="M1193.25,-159.7C1193.35,-152.41 1193.48,-143.73 1193.59,-135.54"/>
+<polygon fill="black" stroke="black" points="1197.09,-135.67 1193.73,-125.62 1190.09,-135.57 1197.09,-135.67"/>
+</g>
+<!-- Pretrained Policies -->
+<g id="node34" class="node">
+<title>Pretrained Policies</title>
+<ellipse fill="none" stroke="black" cx="1333" cy="-106" rx="83.71" ry="18"/>
+<text text-anchor="middle" x="1333" y="-101.8" font-family="Times,serif" font-size="14.00">Pretrained Policies</text>
+</g>
+<!-- RLHF&#45;&gt;Pretrained Policies -->
+<g id="edge31" class="edge">
+<title>RLHF-&gt;Pretrained Policies</title>
+<path fill="none" stroke="black" d="M1217.71,-164.65C1237.88,-154.56 1266.84,-140.08 1290.7,-128.15"/>
+<polygon fill="black" stroke="black" points="1292.17,-131.33 1299.55,-123.72 1289.04,-125.07 1292.17,-131.33"/>
+</g>
+<!-- Transfer Learning -->
+<g id="node33" class="node">
+<title>Transfer Learning</title>
+<ellipse fill="none" stroke="black" cx="1238" cy="-34" rx="81.01" ry="18"/>
+<text text-anchor="middle" x="1238" y="-29.8" font-family="Times,serif" font-size="14.00">Transfer Learning</text>
+</g>
+<!-- RLVR&#45;&gt;Transfer Learning -->
+<g id="edge30" class="edge">
+<title>RLVR-&gt;Transfer Learning</title>
+<path fill="none" stroke="black" d="M1204.43,-88.41C1209.45,-80.42 1215.6,-70.64 1221.25,-61.64"/>
+<polygon fill="black" stroke="black" points="1224.18,-63.57 1226.54,-53.24 1218.25,-59.84 1224.18,-63.57"/>
+</g>
+</g>
+</svg>

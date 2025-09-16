@@ -1,0 +1,429 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5876pt" height="262pt" viewBox="0.00 0.00 5876.00 262.40">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 258.4)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-258.4 5872,-258.4 5872,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_motivation</title>
+<polygon fill="none" stroke="black" points="4603,-92.8 4603,-246.4 5036,-246.4 5036,-92.8 4603,-92.8"/>
+<text text-anchor="middle" x="4819.5" y="-229.8" font-family="Times,serif" font-size="14.00">1. Мотивация</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_classic</title>
+<polygon fill="none" stroke="black" points="8,-8 8,-169.6 853,-169.6 853,-8 8,-8"/>
+<text text-anchor="middle" x="430.5" y="-153" font-family="Times,serif" font-size="14.00">2. Классический MCTS</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_puct</title>
+<polygon fill="none" stroke="black" points="861,-8 861,-169.6 1858,-169.6 1858,-8 861,-8"/>
+<text text-anchor="middle" x="1359.5" y="-153" font-family="Times,serif" font-size="14.00">3. AlphaZero и PUCT</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_alphazero_training</title>
+<polygon fill="none" stroke="black" points="5044,-92.8 5044,-246.4 5860,-246.4 5860,-92.8 5044,-92.8"/>
+<text text-anchor="middle" x="5452" y="-229.8" font-family="Times,serif" font-size="14.00">Обучение AlphaZero</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_muzero</title>
+<polygon fill="none" stroke="black" points="1866,-8 1866,-169.6 2454,-169.6 2454,-8 1866,-8"/>
+<text text-anchor="middle" x="2160" y="-153" font-family="Times,serif" font-size="14.00">4. MuZero</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_llm</title>
+<polygon fill="none" stroke="black" points="2462,-8 2462,-169.6 2908,-169.6 2908,-8 2462,-8"/>
+<text text-anchor="middle" x="2685" y="-153" font-family="Times,serif" font-size="14.00">5. Применение в LLM</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_methods</title>
+<polygon fill="none" stroke="black" points="2916,-8 2916,-84.8 4044,-84.8 4044,-8 2916,-8"/>
+<text text-anchor="middle" x="3480" y="-68.2" font-family="Times,serif" font-size="14.00">6. Продвинутые методы</text>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_extra</title>
+<polygon fill="none" stroke="black" points="4052,-8 4052,-169.6 4595,-169.6 4595,-8 4052,-8"/>
+<text text-anchor="middle" x="4323.5" y="-153" font-family="Times,serif" font-size="14.00">7. EfficientZeroV2</text>
+</g>
+<!-- Нейронный MCTS: базовые принципы и применение -->
+<g id="node1" class="node">
+<title>Нейронный MCTS: базовые принципы и применение</title>
+<ellipse fill="none" stroke="black" cx="2109" cy="-195.6" rx="221.08" ry="18"/>
+<text text-anchor="middle" x="2109" y="-191.4" font-family="Times,serif" font-size="14.00">Нейронный MCTS: базовые принципы и применение</text>
+</g>
+<!-- Классический MCTS -->
+<g id="node9" class="node">
+<title>Классический MCTS</title>
+<ellipse fill="none" stroke="black" cx="747" cy="-118.8" rx="97.69" ry="18"/>
+<text text-anchor="middle" x="747" y="-114.6" font-family="Times,serif" font-size="14.00">Классический MCTS</text>
+</g>
+<!-- Нейронный MCTS: базовые принципы и применение&#45;&gt;Классический MCTS -->
+<g id="edge23" class="edge">
+<title>Нейронный MCTS: базовые принципы и применение-&gt;Классический MCTS</title>
+<path fill="none" stroke="black" d="M1887.7,-195.02C1554.96,-194.91 954.24,-191.6 857,-169.6 831.99,-163.94 805.76,-152.32 785.19,-141.72"/>
+<polygon fill="black" stroke="black" points="787.1,-138.77 776.62,-137.18 783.82,-144.96 787.1,-138.77"/>
+</g>
+<!-- PUCT формула -->
+<g id="node10" class="node">
+<title>PUCT формула</title>
+<ellipse fill="none" stroke="black" cx="1336" cy="-118.8" rx="71.93" ry="18"/>
+<text text-anchor="middle" x="1336" y="-114.6" font-family="Times,serif" font-size="14.00">PUCT формула</text>
+</g>
+<!-- Нейронный MCTS: базовые принципы и применение&#45;&gt;PUCT формула -->
+<g id="edge24" class="edge">
+<title>Нейронный MCTS: базовые принципы и применение-&gt;PUCT формула</title>
+<path fill="none" stroke="black" d="M1900.17,-189.42C1768.95,-185.37 1612.38,-178.86 1546,-169.6 1493.2,-162.23 1434.22,-147.67 1392.24,-136.19"/>
+<polygon fill="black" stroke="black" points="1393.44,-132.89 1382.87,-133.59 1391.57,-139.64 1393.44,-132.89"/>
+</g>
+<!-- MuZero -->
+<g id="node22" class="node">
+<title>MuZero</title>
+<ellipse fill="none" stroke="black" cx="2109" cy="-118.8" rx="42.68" ry="18"/>
+<text text-anchor="middle" x="2109" y="-114.6" font-family="Times,serif" font-size="14.00">MuZero</text>
+</g>
+<!-- Нейронный MCTS: базовые принципы и применение&#45;&gt;MuZero -->
+<g id="edge25" class="edge">
+<title>Нейронный MCTS: базовые принципы и применение-&gt;MuZero</title>
+<path fill="none" stroke="black" d="M2109,-177.25C2109,-168.66 2109,-158.07 2109,-148.32"/>
+<polygon fill="black" stroke="black" points="2112.5,-148.57 2109,-138.57 2105.5,-148.57 2112.5,-148.57"/>
+</g>
+<!-- LLM + MCTS -->
+<g id="node27" class="node">
+<title>LLM + MCTS</title>
+<ellipse fill="none" stroke="black" cx="2832" cy="-118.8" rx="67.99" ry="18"/>
+<text text-anchor="middle" x="2832" y="-114.6" font-family="Times,serif" font-size="14.00">LLM + MCTS</text>
+</g>
+<!-- Нейронный MCTS: базовые принципы и применение&#45;&gt;LLM + MCTS -->
+<g id="edge26" class="edge">
+<title>Нейронный MCTS: базовые принципы и применение-&gt;LLM + MCTS</title>
+<path fill="none" stroke="black" d="M2325.92,-191.87C2497.47,-188.77 2714.64,-182.37 2755,-169.6 2772.64,-164.02 2790.12,-153.25 2803.97,-143.14"/>
+<polygon fill="black" stroke="black" points="2805.88,-146.09 2811.72,-137.25 2801.64,-140.52 2805.88,-146.09"/>
+</g>
+<!-- EfficientZeroV2 -->
+<g id="node35" class="node">
+<title>EfficientZeroV2</title>
+<ellipse fill="none" stroke="black" cx="4226" cy="-118.8" rx="74.85" ry="18"/>
+<text text-anchor="middle" x="4226" y="-114.6" font-family="Times,serif" font-size="14.00">EfficientZeroV2</text>
+</g>
+<!-- Нейронный MCTS: базовые принципы и применение&#45;&gt;EfficientZeroV2 -->
+<g id="edge27" class="edge">
+<title>Нейронный MCTS: базовые принципы и применение-&gt;EfficientZeroV2</title>
+<path fill="none" stroke="black" d="M2314.06,-188.6C2476.32,-183.76 2708.66,-176.62 2912,-169.6 3376.07,-153.58 3932.23,-131.58 4141.16,-123.21"/>
+<polygon fill="black" stroke="black" points="4141.27,-126.71 4151.13,-122.82 4140.99,-119.72 4141.27,-126.71"/>
+</g>
+<!-- AlphaGo, AlphaZero, MuZero -->
+<g id="node2" class="node">
+<title>AlphaGo, AlphaZero, MuZero</title>
+<ellipse fill="none" stroke="black" cx="4741" cy="-195.6" rx="129.57" ry="18"/>
+<text text-anchor="middle" x="4741" y="-191.4" font-family="Times,serif" font-size="14.00">AlphaGo, AlphaZero, MuZero</text>
+</g>
+<!-- Игры, оптимизация, RAG -->
+<g id="node3" class="node">
+<title>Игры, оптимизация, RAG</title>
+<ellipse fill="none" stroke="black" cx="4725" cy="-118.8" rx="113.51" ry="18"/>
+<text text-anchor="middle" x="4725" y="-114.6" font-family="Times,serif" font-size="14.00">Игры, оптимизация, RAG</text>
+</g>
+<!-- AlphaGo, AlphaZero, MuZero&#45;&gt;Игры, оптимизация, RAG -->
+<g id="edge1" class="edge">
+<title>AlphaGo, AlphaZero, MuZero-&gt;Игры, оптимизация, RAG</title>
+<path fill="none" stroke="black" d="M4737.29,-177.25C4735.43,-168.57 4733.14,-157.83 4731.03,-148"/>
+<polygon fill="black" stroke="black" points="4734.52,-147.58 4729.01,-138.53 4727.68,-149.05 4734.52,-147.58"/>
+</g>
+<!-- AlphaTensor -->
+<g id="node4" class="node">
+<title>AlphaTensor</title>
+<ellipse fill="none" stroke="black" cx="4950" cy="-195.6" rx="61.45" ry="18"/>
+<text text-anchor="middle" x="4950" y="-191.4" font-family="Times,serif" font-size="14.00">AlphaTensor</text>
+</g>
+<!-- Умножение матриц -->
+<g id="node5" class="node">
+<title>Умножение матриц</title>
+<ellipse fill="none" stroke="black" cx="4942" cy="-118.8" rx="85.88" ry="18"/>
+<text text-anchor="middle" x="4942" y="-114.6" font-family="Times,serif" font-size="14.00">Умножение матриц</text>
+</g>
+<!-- AlphaTensor&#45;&gt;Умножение матриц -->
+<g id="edge2" class="edge">
+<title>AlphaTensor-&gt;Умножение матриц</title>
+<path fill="none" stroke="black" d="M4948.14,-177.25C4947.23,-168.66 4946.09,-158.07 4945.05,-148.32"/>
+<polygon fill="black" stroke="black" points="4948.55,-148.13 4944.01,-138.56 4941.59,-148.88 4948.55,-148.13"/>
+</g>
+<!-- Selection → Expansion → Simulation → Backpropagation -->
+<g id="node6" class="node">
+<title>Selection → Expansion → Simulation → Backpropagation</title>
+<ellipse fill="none" stroke="black" cx="248" cy="-118.8" rx="232.31" ry="18"/>
+<text text-anchor="middle" x="248" y="-114.6" font-family="Times,serif" font-size="14.00">Selection → Expansion → Simulation → Backpropagation</text>
+</g>
+<!-- UCT формула -->
+<g id="node7" class="node">
+<title>UCT формула</title>
+<ellipse fill="none" stroke="black" cx="565" cy="-118.8" rx="66.56" ry="18"/>
+<text text-anchor="middle" x="565" y="-114.6" font-family="Times,serif" font-size="14.00">UCT формула</text>
+</g>
+<!-- Баланс: исследование/эксплуатация -->
+<g id="node8" class="node">
+<title>Баланс: исследование/эксплуатация</title>
+<ellipse fill="none" stroke="black" cx="565" cy="-34" rx="163.67" ry="18"/>
+<text text-anchor="middle" x="565" y="-29.8" font-family="Times,serif" font-size="14.00">Баланс: исследование/эксплуатация</text>
+</g>
+<!-- UCT формула&#45;&gt;Баланс: исследование/эксплуатация -->
+<g id="edge3" class="edge">
+<title>UCT формула-&gt;Баланс: исследование/эксплуатация</title>
+<path fill="none" stroke="black" d="M565,-100.64C565,-89.95 565,-75.92 565,-63.57"/>
+<polygon fill="black" stroke="black" points="568.5,-63.93 565,-53.93 561.5,-63.93 568.5,-63.93"/>
+</g>
+<!-- Использует приоры от нейросети -->
+<g id="node11" class="node">
+<title>Использует приоры от нейросети</title>
+<ellipse fill="none" stroke="black" cx="1018" cy="-34" rx="148.65" ry="18"/>
+<text text-anchor="middle" x="1018" y="-29.8" font-family="Times,serif" font-size="14.00">Использует приоры от нейросети</text>
+</g>
+<!-- PUCT формула&#45;&gt;Использует приоры от нейросети -->
+<g id="edge4" class="edge">
+<title>PUCT формула-&gt;Использует приоры от нейросети</title>
+<path fill="none" stroke="black" d="M1279.03,-107.51C1248.33,-101.6 1209.9,-93.61 1176,-84.8 1142.66,-76.13 1105.92,-64.67 1076.27,-54.93"/>
+<polygon fill="black" stroke="black" points="1077.72,-51.72 1067.12,-51.9 1075.52,-58.37 1077.72,-51.72"/>
+</g>
+<!-- Баланс Q и P -->
+<g id="node12" class="node">
+<title>Баланс Q и P</title>
+<ellipse fill="none" stroke="black" cx="1249" cy="-34" rx="64.42" ry="18"/>
+<text text-anchor="middle" x="1249" y="-29.8" font-family="Times,serif" font-size="14.00">Баланс Q и P</text>
+</g>
+<!-- PUCT формула&#45;&gt;Баланс Q и P -->
+<g id="edge5" class="edge">
+<title>PUCT формула-&gt;Баланс Q и P</title>
+<path fill="none" stroke="black" d="M1318.39,-101.04C1305.89,-89.15 1288.91,-72.98 1274.87,-59.62"/>
+<polygon fill="black" stroke="black" points="1277.33,-57.13 1267.68,-52.77 1272.51,-62.2 1277.33,-57.13"/>
+</g>
+<!-- Обновление дерева -->
+<g id="node13" class="node">
+<title>Обновление дерева</title>
+<ellipse fill="none" stroke="black" cx="1422" cy="-34" rx="90.71" ry="18"/>
+<text text-anchor="middle" x="1422" y="-29.8" font-family="Times,serif" font-size="14.00">Обновление дерева</text>
+</g>
+<!-- PUCT формула&#45;&gt;Обновление дерева -->
+<g id="edge6" class="edge">
+<title>PUCT формула-&gt;Обновление дерева</title>
+<path fill="none" stroke="black" d="M1353.4,-101.04C1365.68,-89.23 1382.33,-73.2 1396.15,-59.89"/>
+<polygon fill="black" stroke="black" points="1398.46,-62.52 1403.24,-53.06 1393.61,-57.48 1398.46,-62.52"/>
+</g>
+<!-- Выбор действий (N или N^1/τ) -->
+<g id="node14" class="node">
+<title>Выбор действий (N или N^1/τ)</title>
+<ellipse fill="none" stroke="black" cx="1690" cy="-118.8" rx="135.2" ry="18"/>
+<text text-anchor="middle" x="1690" y="-114.6" font-family="Times,serif" font-size="14.00">Выбор действий (N или N^1/τ)</text>
+</g>
+<!-- Консервативность vs Исследование -->
+<g id="node15" class="node">
+<title>Консервативность vs Исследование</title>
+<ellipse fill="none" stroke="black" cx="1690" cy="-34" rx="159.65" ry="18"/>
+<text text-anchor="middle" x="1690" y="-29.8" font-family="Times,serif" font-size="14.00">Консервативность vs Исследование</text>
+</g>
+<!-- Выбор действий (N или N^1/τ)&#45;&gt;Консервативность vs Исследование -->
+<g id="edge7" class="edge">
+<title>Выбор действий (N или N^1/τ)-&gt;Консервативность vs Исследование</title>
+<path fill="none" stroke="black" d="M1690,-100.64C1690,-89.95 1690,-75.92 1690,-63.57"/>
+<polygon fill="black" stroke="black" points="1693.5,-63.93 1690,-53.93 1686.5,-63.93 1693.5,-63.93"/>
+</g>
+<!-- Self&#45;Play -->
+<g id="node16" class="node">
+<title>Self-Play</title>
+<ellipse fill="none" stroke="black" cx="5182" cy="-195.6" rx="46.98" ry="18"/>
+<text text-anchor="middle" x="5182" y="-191.4" font-family="Times,serif" font-size="14.00">Self-Play</text>
+</g>
+<!-- Игровые позиции + политики -->
+<g id="node17" class="node">
+<title>Игровые позиции + политики</title>
+<ellipse fill="none" stroke="black" cx="5182" cy="-118.8" rx="129.95" ry="18"/>
+<text text-anchor="middle" x="5182" y="-114.6" font-family="Times,serif" font-size="14.00">Игровые позиции + политики</text>
+</g>
+<!-- Self&#45;Play&#45;&gt;Игровые позиции + политики -->
+<g id="edge8" class="edge">
+<title>Self-Play-&gt;Игровые позиции + политики</title>
+<path fill="none" stroke="black" d="M5182,-177.25C5182,-168.66 5182,-158.07 5182,-148.32"/>
+<polygon fill="black" stroke="black" points="5185.5,-148.57 5182,-138.57 5178.5,-148.57 5185.5,-148.57"/>
+</g>
+<!-- Learning -->
+<g id="node18" class="node">
+<title>Learning</title>
+<ellipse fill="none" stroke="black" cx="5449" cy="-195.6" rx="45.89" ry="18"/>
+<text text-anchor="middle" x="5449" y="-191.4" font-family="Times,serif" font-size="14.00">Learning</text>
+</g>
+<!-- Loss = Value + Policy + L2 -->
+<g id="node19" class="node">
+<title>Loss = Value + Policy + L2</title>
+<ellipse fill="none" stroke="black" cx="5449" cy="-118.8" rx="118.57" ry="18"/>
+<text text-anchor="middle" x="5449" y="-114.6" font-family="Times,serif" font-size="14.00">Loss = Value + Policy + L2</text>
+</g>
+<!-- Learning&#45;&gt;Loss = Value + Policy + L2 -->
+<g id="edge9" class="edge">
+<title>Learning-&gt;Loss = Value + Policy + L2</title>
+<path fill="none" stroke="black" d="M5449,-177.25C5449,-168.66 5449,-158.07 5449,-148.32"/>
+<polygon fill="black" stroke="black" points="5452.5,-148.57 5449,-138.57 5445.5,-148.57 5452.5,-148.57"/>
+</g>
+<!-- Evaluation -->
+<g id="node20" class="node">
+<title>Evaluation</title>
+<ellipse fill="none" stroke="black" cx="5719" cy="-195.6" rx="52.87" ry="18"/>
+<text text-anchor="middle" x="5719" y="-191.4" font-family="Times,serif" font-size="14.00">Evaluation</text>
+</g>
+<!-- Новая сеть выигрывает &gt;55% -->
+<g id="node21" class="node">
+<title>Новая сеть выигрывает &gt;55%</title>
+<ellipse fill="none" stroke="black" cx="5719" cy="-118.8" rx="133.17" ry="18"/>
+<text text-anchor="middle" x="5719" y="-114.6" font-family="Times,serif" font-size="14.00">Новая сеть выигрывает &gt;55%</text>
+</g>
+<!-- Evaluation&#45;&gt;Новая сеть выигрывает &gt;55% -->
+<g id="edge10" class="edge">
+<title>Evaluation-&gt;Новая сеть выигрывает &gt;55%</title>
+<path fill="none" stroke="black" d="M5719,-177.25C5719,-168.66 5719,-158.07 5719,-148.32"/>
+<polygon fill="black" stroke="black" points="5722.5,-148.57 5719,-138.57 5715.5,-148.57 5722.5,-148.57"/>
+</g>
+<!-- Без знания правил -->
+<g id="node23" class="node">
+<title>Без знания правил</title>
+<ellipse fill="none" stroke="black" cx="1962" cy="-34" rx="88.29" ry="18"/>
+<text text-anchor="middle" x="1962" y="-29.8" font-family="Times,serif" font-size="14.00">Без знания правил</text>
+</g>
+<!-- MuZero&#45;&gt;Без знания правил -->
+<g id="edge11" class="edge">
+<title>MuZero-&gt;Без знания правил</title>
+<path fill="none" stroke="black" d="M2084.06,-103.75C2061.26,-90.91 2027.16,-71.7 2000.79,-56.85"/>
+<polygon fill="black" stroke="black" points="2002.85,-54 1992.42,-52.14 1999.42,-60.09 2002.85,-54"/>
+</g>
+<!-- 3 сети: Representation, Dynamics, Prediction -->
+<g id="node24" class="node">
+<title>3 сети: Representation, Dynamics, Prediction</title>
+<ellipse fill="none" stroke="black" cx="2257" cy="-34" rx="189.12" ry="18"/>
+<text text-anchor="middle" x="2257" y="-29.8" font-family="Times,serif" font-size="14.00">3 сети: Representation, Dynamics, Prediction</text>
+</g>
+<!-- MuZero&#45;&gt;3 сети: Representation, Dynamics, Prediction -->
+<g id="edge12" class="edge">
+<title>MuZero-&gt;3 сети: Representation, Dynamics, Prediction</title>
+<path fill="none" stroke="black" d="M2134.11,-103.75C2156.7,-91.11 2190.31,-72.31 2216.67,-57.56"/>
+<polygon fill="black" stroke="black" points="2218.04,-60.81 2225.06,-52.87 2214.62,-54.7 2218.04,-60.81"/>
+</g>
+<!-- LLM как политика + ценность -->
+<g id="node25" class="node">
+<title>LLM как политика + ценность</title>
+<ellipse fill="none" stroke="black" cx="2608" cy="-118.8" rx="138.26" ry="18"/>
+<text text-anchor="middle" x="2608" y="-114.6" font-family="Times,serif" font-size="14.00">LLM как политика + ценность</text>
+</g>
+<!-- Планирование на несколько шагов -->
+<g id="node26" class="node">
+<title>Планирование на несколько шагов</title>
+<ellipse fill="none" stroke="black" cx="2623" cy="-34" rx="153.48" ry="18"/>
+<text text-anchor="middle" x="2623" y="-29.8" font-family="Times,serif" font-size="14.00">Планирование на несколько шагов</text>
+</g>
+<!-- LLM как политика + ценность&#45;&gt;Планирование на несколько шагов -->
+<g id="edge13" class="edge">
+<title>LLM как политика + ценность-&gt;Планирование на несколько шагов</title>
+<path fill="none" stroke="black" d="M2611.11,-100.64C2613.05,-89.95 2615.59,-75.92 2617.82,-63.57"/>
+<polygon fill="black" stroke="black" points="2621.24,-64.37 2619.57,-53.91 2614.35,-63.12 2621.24,-64.37"/>
+</g>
+<!-- LLM&#45;MCTS (Zhao 2023) -->
+<g id="node28" class="node">
+<title>LLM-MCTS (Zhao 2023)</title>
+<ellipse fill="none" stroke="black" cx="3035" cy="-34" rx="111.35" ry="18"/>
+<text text-anchor="middle" x="3035" y="-29.8" font-family="Times,serif" font-size="14.00">LLM-MCTS (Zhao 2023)</text>
+</g>
+<!-- LLM + MCTS&#45;&gt;LLM&#45;MCTS (Zhao 2023) -->
+<g id="edge14" class="edge">
+<title>LLM + MCTS-&gt;LLM-MCTS (Zhao 2023)</title>
+<path fill="none" stroke="black" d="M2867.83,-103.19C2900.35,-89.92 2948.66,-70.22 2984.99,-55.4"/>
+<polygon fill="black" stroke="black" points="2986.03,-58.75 2993.97,-51.74 2983.39,-52.27 2986.03,-58.75"/>
+</g>
+<!-- ReST&#45;MCTS (Zhang 2024) -->
+<g id="node29" class="node">
+<title>ReST-MCTS (Zhang 2024)</title>
+<ellipse fill="none" stroke="black" cx="3282" cy="-34" rx="117.79" ry="18"/>
+<text text-anchor="middle" x="3282" y="-29.8" font-family="Times,serif" font-size="14.00">ReST-MCTS (Zhang 2024)</text>
+</g>
+<!-- LLM + MCTS&#45;&gt;ReST&#45;MCTS (Zhang 2024) -->
+<g id="edge15" class="edge">
+<title>LLM + MCTS-&gt;ReST-MCTS (Zhang 2024)</title>
+<path fill="none" stroke="black" d="M2899.71,-116.22C2965.69,-113.43 3068.44,-105.78 3155,-84.8 3182.94,-78.03 3212.95,-66.48 3236.77,-56.21"/>
+<polygon fill="black" stroke="black" points="3238.12,-59.44 3245.87,-52.21 3235.3,-53.03 3238.12,-59.44"/>
+</g>
+<!-- GDP&#45;ZERO -->
+<g id="node30" class="node">
+<title>GDP-ZERO</title>
+<ellipse fill="none" stroke="black" cx="3477" cy="-34" rx="58.78" ry="18"/>
+<text text-anchor="middle" x="3477" y="-29.8" font-family="Times,serif" font-size="14.00">GDP-ZERO</text>
+</g>
+<!-- LLM + MCTS&#45;&gt;GDP&#45;ZERO -->
+<g id="edge16" class="edge">
+<title>LLM + MCTS-&gt;GDP-ZERO</title>
+<path fill="none" stroke="black" d="M2899.7,-116.08C3041.85,-112.17 3362.19,-101.6 3409,-84.8 3424.58,-79.21 3439.68,-68.83 3451.67,-58.99"/>
+<polygon fill="black" stroke="black" points="3453.75,-61.82 3459.04,-52.64 3449.18,-56.51 3453.75,-61.82"/>
+</g>
+<!-- CPO -->
+<g id="node31" class="node">
+<title>CPO</title>
+<ellipse fill="none" stroke="black" cx="3584" cy="-34" rx="29.82" ry="18"/>
+<text text-anchor="middle" x="3584" y="-29.8" font-family="Times,serif" font-size="14.00">CPO</text>
+</g>
+<!-- LLM + MCTS&#45;&gt;CPO -->
+<g id="edge17" class="edge">
+<title>LLM + MCTS-&gt;CPO</title>
+<path fill="none" stroke="black" d="M2900.12,-117.86C3067.36,-117.55 3488.7,-113.85 3545,-84.8 3555.18,-79.55 3563.53,-70.31 3569.87,-61.21"/>
+<polygon fill="black" stroke="black" points="3572.76,-63.19 3575.12,-52.86 3566.83,-59.46 3572.76,-63.19"/>
+</g>
+<!-- SeRTS -->
+<g id="node32" class="node">
+<title>SeRTS</title>
+<ellipse fill="none" stroke="black" cx="3670" cy="-34" rx="38.4" ry="18"/>
+<text text-anchor="middle" x="3670" y="-29.8" font-family="Times,serif" font-size="14.00">SeRTS</text>
+</g>
+<!-- LLM + MCTS&#45;&gt;SeRTS -->
+<g id="edge18" class="edge">
+<title>LLM + MCTS-&gt;SeRTS</title>
+<path fill="none" stroke="black" d="M2900.41,-117.88C3080.48,-117.68 3558.25,-114.34 3623,-84.8 3634.52,-79.54 3644.59,-70.04 3652.42,-60.74"/>
+<polygon fill="black" stroke="black" points="3655.17,-62.9 3658.55,-52.86 3649.65,-58.6 3655.17,-62.9"/>
+</g>
+<!-- XoT -->
+<g id="node33" class="node">
+<title>XoT</title>
+<ellipse fill="none" stroke="black" cx="3755" cy="-34" rx="28.74" ry="18"/>
+<text text-anchor="middle" x="3755" y="-29.8" font-family="Times,serif" font-size="14.00">XoT</text>
+</g>
+<!-- LLM + MCTS&#45;&gt;XoT -->
+<g id="edge19" class="edge">
+<title>LLM + MCTS-&gt;XoT</title>
+<path fill="none" stroke="black" d="M2900.01,-116.85C3101.07,-113.81 3680.93,-103.49 3717,-84.8 3727.07,-79.58 3735.24,-70.35 3741.39,-61.24"/>
+<polygon fill="black" stroke="black" points="3744.26,-63.26 3746.47,-52.9 3738.28,-59.62 3744.26,-63.26"/>
+</g>
+<!-- MCTS в текстовых играх -->
+<g id="node34" class="node">
+<title>MCTS в текстовых играх</title>
+<ellipse fill="none" stroke="black" cx="3919" cy="-34" rx="117" ry="18"/>
+<text text-anchor="middle" x="3919" y="-29.8" font-family="Times,serif" font-size="14.00">MCTS в текстовых играх</text>
+</g>
+<!-- LLM + MCTS&#45;&gt;MCTS в текстовых играх -->
+<g id="edge20" class="edge">
+<title>LLM + MCTS-&gt;MCTS в текстовых играх</title>
+<path fill="none" stroke="black" d="M2899.73,-116.81C3104.18,-113.63 3706.38,-102.84 3793,-84.8 3821.46,-78.87 3851.8,-67.06 3875.58,-56.43"/>
+<polygon fill="black" stroke="black" points="3877,-59.63 3884.63,-52.29 3874.08,-53.27 3877,-59.63"/>
+</g>
+<!-- Мало данных, высокая эффективность -->
+<g id="node36" class="node">
+<title>Мало данных, высокая эффективность</title>
+<ellipse fill="none" stroke="black" cx="4226" cy="-34" rx="165.55" ry="18"/>
+<text text-anchor="middle" x="4226" y="-29.8" font-family="Times,serif" font-size="14.00">Мало данных, высокая эффективность</text>
+</g>
+<!-- EfficientZeroV2&#45;&gt;Мало данных, высокая эффективность -->
+<g id="edge21" class="edge">
+<title>EfficientZeroV2-&gt;Мало данных, высокая эффективность</title>
+<path fill="none" stroke="black" d="M4226,-100.64C4226,-89.95 4226,-75.92 4226,-63.57"/>
+<polygon fill="black" stroke="black" points="4229.5,-63.93 4226,-53.93 4222.5,-63.93 4229.5,-63.93"/>
+</g>
+<!-- Универсальный RL -->
+<g id="node37" class="node">
+<title>Универсальный RL</title>
+<ellipse fill="none" stroke="black" cx="4498" cy="-34" rx="88.56" ry="18"/>
+<text text-anchor="middle" x="4498" y="-29.8" font-family="Times,serif" font-size="14.00">Универсальный RL</text>
+</g>
+<!-- EfficientZeroV2&#45;&gt;Универсальный RL -->
+<g id="edge22" class="edge">
+<title>EfficientZeroV2-&gt;Универсальный RL</title>
+<path fill="none" stroke="black" d="M4291.98,-109.94C4325.26,-104.84 4365.91,-96.83 4401,-84.8 4421.66,-77.72 4443.39,-66.9 4461.04,-57.16"/>
+<polygon fill="black" stroke="black" points="4462.62,-60.29 4469.6,-52.33 4459.18,-54.2 4462.62,-60.29"/>
+</g>
+</g>
+</svg>

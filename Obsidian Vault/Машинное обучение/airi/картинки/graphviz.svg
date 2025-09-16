@@ -1,0 +1,372 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1518pt" height="1224pt" viewBox="0.00 0.00 1518.00 1224.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1220)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1220 1514,-1220 1514,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_structure</title>
+<polygon fill="none" stroke="black" points="548,-915.2 548,-1208 1010,-1208 1010,-915.2 548,-915.2"/>
+<text text-anchor="middle" x="779" y="-1191.4" font-family="Times,serif" font-size="14.00">Устройство</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_limits</title>
+<polygon fill="none" stroke="black" points="762,-609.6 762,-907.2 1080,-907.2 1080,-609.6 762,-609.6"/>
+<text text-anchor="middle" x="921" y="-890.6" font-family="Times,serif" font-size="14.00">Ограничения</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_optimizations</title>
+<polygon fill="none" stroke="black" points="1088,-380.8 1088,-686.4 1502,-686.4 1502,-380.8 1088,-380.8"/>
+<text text-anchor="middle" x="1295" y="-669.8" font-family="Times,serif" font-size="14.00">Оптимизации</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_rec_arch</title>
+<polygon fill="none" stroke="black" points="734,-236.8 734,-601.6 1080,-601.6 1080,-236.8 734,-236.8"/>
+<text text-anchor="middle" x="907" y="-585" font-family="Times,serif" font-size="14.00">Рекуррентные архитектуры</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_reasoning</title>
+<polygon fill="none" stroke="black" points="8,-830.4 8,-1208 540,-1208 540,-830.4 8,-830.4"/>
+<text text-anchor="middle" x="274" y="-1191.4" font-family="Times,serif" font-size="14.00">Chain-of-Thought и глубина</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_babilong</title>
+<polygon fill="none" stroke="black" points="794,-8 794,-228.8 1020,-228.8 1020,-8 794,-8"/>
+<text text-anchor="middle" x="907" y="-212.2" font-family="Times,serif" font-size="14.00">Длинные контексты и reasoning</text>
+</g>
+<!-- LLMs и Трансформеры: Устройство, развитие, ограничения -->
+<g id="node1" class="node">
+<title>LLMs и Трансформеры: Устройство, развитие, ограничения</title>
+<ellipse fill="none" stroke="black" cx="274" cy="-1157.2" rx="257.56" ry="18"/>
+<text text-anchor="middle" x="274" y="-1153" font-family="Times,serif" font-size="14.00">LLMs и Трансформеры: Устройство, развитие, ограничения</text>
+</g>
+<!-- Chain&#45;of&#45;Thought -->
+<g id="node23" class="node">
+<title>Chain-of-Thought</title>
+<ellipse fill="none" stroke="black" cx="274" cy="-1085.2" rx="81.3" ry="18"/>
+<text text-anchor="middle" x="274" y="-1081" font-family="Times,serif" font-size="14.00">Chain-of-Thought</text>
+</g>
+<!-- LLMs и Трансформеры: Устройство, развитие, ограничения&#45;&gt;Chain&#45;of&#45;Thought -->
+<g id="edge21" class="edge">
+<title>LLMs и Трансформеры: Устройство, развитие, ограничения-&gt;Chain-of-Thought</title>
+<path fill="none" stroke="black" d="M274,-1138.9C274,-1131.61 274,-1122.93 274,-1114.74"/>
+<polygon fill="black" stroke="black" points="277.5,-1114.82 274,-1104.82 270.5,-1114.82 277.5,-1114.82"/>
+</g>
+<!-- Encoder/Decoder -->
+<g id="node2" class="node">
+<title>Encoder/Decoder</title>
+<ellipse fill="none" stroke="black" cx="783" cy="-1157.2" rx="78.6" ry="18"/>
+<text text-anchor="middle" x="783" y="-1153" font-family="Times,serif" font-size="14.00">Encoder/Decoder</text>
+</g>
+<!-- Self&#45;Attention / Cross&#45;Attention -->
+<g id="node3" class="node">
+<title>Self-Attention / Cross-Attention</title>
+<ellipse fill="none" stroke="black" cx="783" cy="-1085.2" rx="135.49" ry="18"/>
+<text text-anchor="middle" x="783" y="-1081" font-family="Times,serif" font-size="14.00">Self-Attention / Cross-Attention</text>
+</g>
+<!-- Encoder/Decoder&#45;&gt;Self&#45;Attention / Cross&#45;Attention -->
+<g id="edge1" class="edge">
+<title>Encoder/Decoder-&gt;Self-Attention / Cross-Attention</title>
+<path fill="none" stroke="black" d="M783,-1138.9C783,-1131.61 783,-1122.93 783,-1114.74"/>
+<polygon fill="black" stroke="black" points="786.5,-1114.82 783,-1104.82 779.5,-1114.82 786.5,-1114.82"/>
+</g>
+<!-- Multi&#45;Head Attention -->
+<g id="node4" class="node">
+<title>Multi-Head Attention</title>
+<ellipse fill="none" stroke="black" cx="783" cy="-1013.2" rx="94.98" ry="18"/>
+<text text-anchor="middle" x="783" y="-1009" font-family="Times,serif" font-size="14.00">Multi-Head Attention</text>
+</g>
+<!-- Self&#45;Attention / Cross&#45;Attention&#45;&gt;Multi&#45;Head Attention -->
+<g id="edge2" class="edge">
+<title>Self-Attention / Cross-Attention-&gt;Multi-Head Attention</title>
+<path fill="none" stroke="black" d="M783,-1066.9C783,-1059.61 783,-1050.93 783,-1042.74"/>
+<polygon fill="black" stroke="black" points="786.5,-1042.82 783,-1032.82 779.5,-1042.82 786.5,-1042.82"/>
+</g>
+<!-- Embedding + Positional Encoding -->
+<g id="node5" class="node">
+<title>Embedding + Positional Encoding</title>
+<ellipse fill="none" stroke="black" cx="700" cy="-941.2" rx="143.89" ry="18"/>
+<text text-anchor="middle" x="700" y="-937" font-family="Times,serif" font-size="14.00">Embedding + Positional Encoding</text>
+</g>
+<!-- Multi&#45;Head Attention&#45;&gt;Embedding + Positional Encoding -->
+<g id="edge3" class="edge">
+<title>Multi-Head Attention-&gt;Embedding + Positional Encoding</title>
+<path fill="none" stroke="black" d="M762.91,-995.25C752.76,-986.7 740.27,-976.16 729.09,-966.74"/>
+<polygon fill="black" stroke="black" points="731.54,-964.22 721.64,-960.45 727.03,-969.57 731.54,-964.22"/>
+</g>
+<!-- Memory Types -->
+<g id="node6" class="node">
+<title>Memory Types</title>
+<ellipse fill="none" stroke="black" cx="932" cy="-941.2" rx="70.31" ry="18"/>
+<text text-anchor="middle" x="932" y="-937" font-family="Times,serif" font-size="14.00">Memory Types</text>
+</g>
+<!-- Multi&#45;Head Attention&#45;&gt;Memory Types -->
+<g id="edge4" class="edge">
+<title>Multi-Head Attention-&gt;Memory Types</title>
+<path fill="none" stroke="black" d="M817.56,-995.96C838.86,-985.96 866.34,-973.05 889.04,-962.38"/>
+<polygon fill="black" stroke="black" points="890.48,-965.57 898.05,-958.15 887.51,-959.24 890.48,-965.57"/>
+</g>
+<!-- Квадратичная сложность O(n²) -->
+<g id="node7" class="node">
+<title>Квадратичная сложность O(n²)</title>
+<ellipse fill="none" stroke="black" cx="932" cy="-856.4" rx="140.33" ry="18"/>
+<text text-anchor="middle" x="932" y="-852.2" font-family="Times,serif" font-size="14.00">Квадратичная сложность O(n²)</text>
+</g>
+<!-- Memory Types&#45;&gt;Квадратичная сложность O(n²) -->
+<g id="edge5" class="edge">
+<title>Memory Types-&gt;Квадратичная сложность O(n²)</title>
+<path fill="none" stroke="black" d="M932,-923.04C932,-912.35 932,-898.32 932,-885.97"/>
+<polygon fill="black" stroke="black" points="935.5,-886.33 932,-876.33 928.5,-886.33 935.5,-886.33"/>
+</g>
+<!-- Большой KV&#45;cache -->
+<g id="node8" class="node">
+<title>Большой KV-cache</title>
+<ellipse fill="none" stroke="black" cx="949" cy="-784.4" rx="86.39" ry="18"/>
+<text text-anchor="middle" x="949" y="-780.2" font-family="Times,serif" font-size="14.00">Большой KV-cache</text>
+</g>
+<!-- Квадратичная сложность O(n²)&#45;&gt;Большой KV&#45;cache -->
+<g id="edge6" class="edge">
+<title>Квадратичная сложность O(n²)-&gt;Большой KV-cache</title>
+<path fill="none" stroke="black" d="M936.2,-838.1C937.99,-830.72 940.13,-821.92 942.14,-813.65"/>
+<polygon fill="black" stroke="black" points="945.53,-814.52 944.49,-803.98 938.73,-812.87 945.53,-814.52"/>
+</g>
+<!-- Плохая генерализация -->
+<g id="node9" class="node">
+<title>Плохая генерализация</title>
+<ellipse fill="none" stroke="black" cx="949" cy="-712.4" rx="105.19" ry="18"/>
+<text text-anchor="middle" x="949" y="-708.2" font-family="Times,serif" font-size="14.00">Плохая генерализация</text>
+</g>
+<!-- Большой KV&#45;cache&#45;&gt;Плохая генерализация -->
+<g id="edge7" class="edge">
+<title>Большой KV-cache-&gt;Плохая генерализация</title>
+<path fill="none" stroke="black" d="M949,-766.1C949,-758.81 949,-750.13 949,-741.94"/>
+<polygon fill="black" stroke="black" points="952.5,-742.02 949,-732.02 945.5,-742.02 952.5,-742.02"/>
+</g>
+<!-- Flash Attention -->
+<g id="node14" class="node">
+<title>Flash Attention</title>
+<ellipse fill="none" stroke="black" cx="1423" cy="-635.6" rx="70.85" ry="18"/>
+<text text-anchor="middle" x="1423" y="-631.4" font-family="Times,serif" font-size="14.00">Flash Attention</text>
+</g>
+<!-- Большой KV&#45;cache&#45;&gt;Flash Attention -->
+<g id="edge12" class="edge">
+<title>Большой KV-cache-&gt;Flash Attention</title>
+<path fill="none" stroke="black" d="M1018.01,-773.2C1098.35,-759.79 1233.95,-732.39 1343,-686.4 1359.9,-679.27 1377.35,-668.83 1391.61,-659.35"/>
+<polygon fill="black" stroke="black" points="1393.4,-662.37 1399.69,-653.85 1389.45,-656.59 1393.4,-662.37"/>
+</g>
+<!-- Зачем масштабировать контекст? -->
+<g id="node10" class="node">
+<title>Зачем масштабировать контекст?</title>
+<ellipse fill="none" stroke="black" cx="921" cy="-635.6" rx="150.52" ry="18"/>
+<text text-anchor="middle" x="921" y="-631.4" font-family="Times,serif" font-size="14.00">Зачем масштабировать контекст?</text>
+</g>
+<!-- Плохая генерализация&#45;&gt;Зачем масштабировать контекст? -->
+<g id="edge8" class="edge">
+<title>Плохая генерализация-&gt;Зачем масштабировать контекст?</title>
+<path fill="none" stroke="black" d="M942.51,-694.05C939.22,-685.27 935.15,-674.4 931.44,-664.48"/>
+<polygon fill="black" stroke="black" points="934.77,-663.41 927.99,-655.27 928.22,-665.86 934.77,-663.41"/>
+</g>
+<!-- Positional Interpolation (PI) -->
+<g id="node11" class="node">
+<title>Positional Interpolation (PI)</title>
+<ellipse fill="none" stroke="black" cx="1215" cy="-635.6" rx="119.39" ry="18"/>
+<text text-anchor="middle" x="1215" y="-631.4" font-family="Times,serif" font-size="14.00">Positional Interpolation (PI)</text>
+</g>
+<!-- Плохая генерализация&#45;&gt;Positional Interpolation (PI) -->
+<g id="edge9" class="edge">
+<title>Плохая генерализация-&gt;Positional Interpolation (PI)</title>
+<path fill="none" stroke="black" d="M1025.59,-699.69C1044.82,-696.08 1065.29,-691.64 1084,-686.4 1111.96,-678.57 1142.32,-667.21 1166.77,-657.33"/>
+<polygon fill="black" stroke="black" points="1167.88,-660.65 1175.8,-653.62 1165.22,-654.18 1167.88,-660.65"/>
+</g>
+<!-- Linear Recurrence -->
+<g id="node18" class="node">
+<title>Linear Recurrence</title>
+<ellipse fill="none" stroke="black" cx="919" cy="-550.8" rx="82.61" ry="18"/>
+<text text-anchor="middle" x="919" y="-546.6" font-family="Times,serif" font-size="14.00">Linear Recurrence</text>
+</g>
+<!-- Зачем масштабировать контекст?&#45;&gt;Linear Recurrence -->
+<g id="edge16" class="edge">
+<title>Зачем масштабировать контекст?-&gt;Linear Recurrence</title>
+<path fill="none" stroke="black" d="M920.59,-617.44C920.33,-606.75 919.99,-592.72 919.69,-580.37"/>
+<polygon fill="black" stroke="black" points="923.2,-580.64 919.46,-570.73 916.2,-580.81 923.2,-580.64"/>
+</g>
+<!-- YaRN -->
+<g id="node12" class="node">
+<title>YaRN</title>
+<ellipse fill="none" stroke="black" cx="1215" cy="-550.8" rx="35.71" ry="18"/>
+<text text-anchor="middle" x="1215" y="-546.6" font-family="Times,serif" font-size="14.00">YaRN</text>
+</g>
+<!-- Positional Interpolation (PI)&#45;&gt;YaRN -->
+<g id="edge10" class="edge">
+<title>Positional Interpolation (PI)-&gt;YaRN</title>
+<path fill="none" stroke="black" d="M1215,-617.44C1215,-606.75 1215,-592.72 1215,-580.37"/>
+<polygon fill="black" stroke="black" points="1218.5,-580.73 1215,-570.73 1211.5,-580.73 1218.5,-580.73"/>
+</g>
+<!-- Пост&#45;тюнинг -->
+<g id="node13" class="node">
+<title>Пост-тюнинг</title>
+<ellipse fill="none" stroke="black" cx="1215" cy="-478.8" rx="62.54" ry="18"/>
+<text text-anchor="middle" x="1215" y="-474.6" font-family="Times,serif" font-size="14.00">Пост-тюнинг</text>
+</g>
+<!-- YaRN&#45;&gt;Пост&#45;тюнинг -->
+<g id="edge11" class="edge">
+<title>YaRN-&gt;Пост-тюнинг</title>
+<path fill="none" stroke="black" d="M1215,-532.5C1215,-525.21 1215,-516.53 1215,-508.34"/>
+<polygon fill="black" stroke="black" points="1218.5,-508.42 1215,-498.42 1211.5,-508.42 1218.5,-508.42"/>
+</g>
+<!-- Ring Attention -->
+<g id="node15" class="node">
+<title>Ring Attention</title>
+<ellipse fill="none" stroke="black" cx="1408" cy="-550.8" rx="68.71" ry="18"/>
+<text text-anchor="middle" x="1408" y="-546.6" font-family="Times,serif" font-size="14.00">Ring Attention</text>
+</g>
+<!-- Flash Attention&#45;&gt;Ring Attention -->
+<g id="edge13" class="edge">
+<title>Flash Attention-&gt;Ring Attention</title>
+<path fill="none" stroke="black" d="M1419.89,-617.44C1417.95,-606.75 1415.41,-592.72 1413.18,-580.37"/>
+<polygon fill="black" stroke="black" points="1416.65,-579.92 1411.43,-570.71 1409.76,-581.17 1416.65,-579.92"/>
+</g>
+<!-- Multi&#45;Query Attention -->
+<g id="node16" class="node">
+<title>Multi-Query Attention</title>
+<ellipse fill="none" stroke="black" cx="1394" cy="-478.8" rx="98.74" ry="18"/>
+<text text-anchor="middle" x="1394" y="-474.6" font-family="Times,serif" font-size="14.00">Multi-Query Attention</text>
+</g>
+<!-- Ring Attention&#45;&gt;Multi&#45;Query Attention -->
+<g id="edge14" class="edge">
+<title>Ring Attention-&gt;Multi-Query Attention</title>
+<path fill="none" stroke="black" d="M1404.54,-532.5C1403.06,-525.12 1401.3,-516.32 1399.65,-508.05"/>
+<polygon fill="black" stroke="black" points="1403.11,-507.51 1397.72,-498.39 1396.25,-508.88 1403.11,-507.51"/>
+</g>
+<!-- Grouped&#45;Query Attention -->
+<g id="node17" class="node">
+<title>Grouped-Query Attention</title>
+<ellipse fill="none" stroke="black" cx="1383" cy="-406.8" rx="111.07" ry="18"/>
+<text text-anchor="middle" x="1383" y="-402.6" font-family="Times,serif" font-size="14.00">Grouped-Query Attention</text>
+</g>
+<!-- Multi&#45;Query Attention&#45;&gt;Grouped&#45;Query Attention -->
+<g id="edge15" class="edge">
+<title>Multi-Query Attention-&gt;Grouped-Query Attention</title>
+<path fill="none" stroke="black" d="M1391.28,-460.5C1390.12,-453.12 1388.74,-444.32 1387.44,-436.05"/>
+<polygon fill="black" stroke="black" points="1390.93,-435.73 1385.92,-426.4 1384.02,-436.82 1390.93,-435.73"/>
+</g>
+<!-- Recurrent Transformers -->
+<g id="node19" class="node">
+<title>Recurrent Transformers</title>
+<ellipse fill="none" stroke="black" cx="917" cy="-478.8" rx="103.54" ry="18"/>
+<text text-anchor="middle" x="917" y="-474.6" font-family="Times,serif" font-size="14.00">Recurrent Transformers</text>
+</g>
+<!-- Linear Recurrence&#45;&gt;Recurrent Transformers -->
+<g id="edge17" class="edge">
+<title>Linear Recurrence-&gt;Recurrent Transformers</title>
+<path fill="none" stroke="black" d="M918.51,-532.5C918.3,-525.21 918.05,-516.53 917.82,-508.34"/>
+<polygon fill="black" stroke="black" points="921.32,-508.31 917.53,-498.42 914.32,-508.51 921.32,-508.31"/>
+</g>
+<!-- Griffin, Jamba, xLSTM -->
+<g id="node20" class="node">
+<title>Griffin, Jamba, xLSTM</title>
+<ellipse fill="none" stroke="black" cx="910" cy="-406.8" rx="102.76" ry="18"/>
+<text text-anchor="middle" x="910" y="-402.6" font-family="Times,serif" font-size="14.00">Griffin, Jamba, xLSTM</text>
+</g>
+<!-- Recurrent Transformers&#45;&gt;Griffin, Jamba, xLSTM -->
+<g id="edge18" class="edge">
+<title>Recurrent Transformers-&gt;Griffin, Jamba, xLSTM</title>
+<path fill="none" stroke="black" d="M915.27,-460.5C914.54,-453.21 913.67,-444.53 912.85,-436.34"/>
+<polygon fill="black" stroke="black" points="916.34,-436.01 911.86,-426.41 909.37,-436.71 916.34,-436.01"/>
+</g>
+<!-- Recurrent Memory Transformer (RMT) -->
+<g id="node21" class="node">
+<title>Recurrent Memory Transformer (RMT)</title>
+<ellipse fill="none" stroke="black" cx="907" cy="-334.8" rx="165.23" ry="18"/>
+<text text-anchor="middle" x="907" y="-330.6" font-family="Times,serif" font-size="14.00">Recurrent Memory Transformer (RMT)</text>
+</g>
+<!-- Griffin, Jamba, xLSTM&#45;&gt;Recurrent Memory Transformer (RMT) -->
+<g id="edge19" class="edge">
+<title>Griffin, Jamba, xLSTM-&gt;Recurrent Memory Transformer (RMT)</title>
+<path fill="none" stroke="black" d="M909.26,-388.5C908.95,-381.21 908.57,-372.53 908.22,-364.34"/>
+<polygon fill="black" stroke="black" points="911.72,-364.26 907.8,-354.42 904.73,-364.56 911.72,-364.26"/>
+</g>
+<!-- Titans (MAC) -->
+<g id="node22" class="node">
+<title>Titans (MAC)</title>
+<ellipse fill="none" stroke="black" cx="907" cy="-262.8" rx="66.02" ry="18"/>
+<text text-anchor="middle" x="907" y="-258.6" font-family="Times,serif" font-size="14.00">Titans (MAC)</text>
+</g>
+<!-- Recurrent Memory Transformer (RMT)&#45;&gt;Titans (MAC) -->
+<g id="edge20" class="edge">
+<title>Recurrent Memory Transformer (RMT)-&gt;Titans (MAC)</title>
+<path fill="none" stroke="black" d="M907,-316.5C907,-309.21 907,-300.53 907,-292.34"/>
+<polygon fill="black" stroke="black" points="910.5,-292.42 907,-282.42 903.5,-292.42 910.5,-292.42"/>
+</g>
+<!-- BABILong Benchmark -->
+<g id="node27" class="node">
+<title>BABILong Benchmark</title>
+<ellipse fill="none" stroke="black" cx="907" cy="-178" rx="101.42" ry="18"/>
+<text text-anchor="middle" x="907" y="-173.8" font-family="Times,serif" font-size="14.00">BABILong Benchmark</text>
+</g>
+<!-- Titans (MAC)&#45;&gt;BABILong Benchmark -->
+<g id="edge25" class="edge">
+<title>Titans (MAC)-&gt;BABILong Benchmark</title>
+<path fill="none" stroke="black" d="M907,-244.64C907,-233.95 907,-219.92 907,-207.57"/>
+<polygon fill="black" stroke="black" points="910.5,-207.93 907,-197.93 903.5,-207.93 910.5,-207.93"/>
+</g>
+<!-- Chain&#45;of&#45;Continuous&#45;Thought -->
+<g id="node24" class="node">
+<title>Chain-of-Continuous-Thought</title>
+<ellipse fill="none" stroke="black" cx="274" cy="-1013.2" rx="129.06" ry="18"/>
+<text text-anchor="middle" x="274" y="-1009" font-family="Times,serif" font-size="14.00">Chain-of-Continuous-Thought</text>
+</g>
+<!-- Chain&#45;of&#45;Thought&#45;&gt;Chain&#45;of&#45;Continuous&#45;Thought -->
+<g id="edge22" class="edge">
+<title>Chain-of-Thought-&gt;Chain-of-Continuous-Thought</title>
+<path fill="none" stroke="black" d="M274,-1066.9C274,-1059.61 274,-1050.93 274,-1042.74"/>
+<polygon fill="black" stroke="black" points="277.5,-1042.82 274,-1032.82 270.5,-1042.82 277.5,-1042.82"/>
+</g>
+<!-- Looped Transformers -->
+<g id="node25" class="node">
+<title>Looped Transformers</title>
+<ellipse fill="none" stroke="black" cx="274" cy="-941.2" rx="94.97" ry="18"/>
+<text text-anchor="middle" x="274" y="-937" font-family="Times,serif" font-size="14.00">Looped Transformers</text>
+</g>
+<!-- Chain&#45;of&#45;Continuous&#45;Thought&#45;&gt;Looped Transformers -->
+<g id="edge23" class="edge">
+<title>Chain-of-Continuous-Thought-&gt;Looped Transformers</title>
+<path fill="none" stroke="black" d="M274,-994.9C274,-987.61 274,-978.93 274,-970.74"/>
+<polygon fill="black" stroke="black" points="277.5,-970.82 274,-960.82 270.5,-970.82 277.5,-970.82"/>
+</g>
+<!-- Adaptive Computation Time -->
+<g id="node26" class="node">
+<title>Adaptive Computation Time</title>
+<ellipse fill="none" stroke="black" cx="274" cy="-856.4" rx="122.07" ry="18"/>
+<text text-anchor="middle" x="274" y="-852.2" font-family="Times,serif" font-size="14.00">Adaptive Computation Time</text>
+</g>
+<!-- Looped Transformers&#45;&gt;Adaptive Computation Time -->
+<g id="edge24" class="edge">
+<title>Looped Transformers-&gt;Adaptive Computation Time</title>
+<path fill="none" stroke="black" d="M274,-923.04C274,-912.35 274,-898.32 274,-885.97"/>
+<polygon fill="black" stroke="black" points="277.5,-886.33 274,-876.33 270.5,-886.33 277.5,-886.33"/>
+</g>
+<!-- Fact chaining, Induction -->
+<g id="node28" class="node">
+<title>Fact chaining, Induction</title>
+<ellipse fill="none" stroke="black" cx="907" cy="-106" rx="105.17" ry="18"/>
+<text text-anchor="middle" x="907" y="-101.8" font-family="Times,serif" font-size="14.00">Fact chaining, Induction</text>
+</g>
+<!-- BABILong Benchmark&#45;&gt;Fact chaining, Induction -->
+<g id="edge26" class="edge">
+<title>BABILong Benchmark-&gt;Fact chaining, Induction</title>
+<path fill="none" stroke="black" d="M907,-159.7C907,-152.41 907,-143.73 907,-135.54"/>
+<polygon fill="black" stroke="black" points="910.5,-135.62 907,-125.62 903.5,-135.62 910.5,-135.62"/>
+</g>
+<!-- Counting, Sets -->
+<g id="node29" class="node">
+<title>Counting, Sets</title>
+<ellipse fill="none" stroke="black" cx="907" cy="-34" rx="67.91" ry="18"/>
+<text text-anchor="middle" x="907" y="-29.8" font-family="Times,serif" font-size="14.00">Counting, Sets</text>
+</g>
+<!-- Fact chaining, Induction&#45;&gt;Counting, Sets -->
+<g id="edge27" class="edge">
+<title>Fact chaining, Induction-&gt;Counting, Sets</title>
+<path fill="none" stroke="black" d="M907,-87.7C907,-80.41 907,-71.73 907,-63.54"/>
+<polygon fill="black" stroke="black" points="910.5,-63.62 907,-53.62 903.5,-63.62 910.5,-63.62"/>
+</g>
+</g>
+</svg>

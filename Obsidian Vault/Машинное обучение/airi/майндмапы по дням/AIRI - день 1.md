@@ -1,0 +1,170 @@
+## Лекция 1: Эволюция ИИ и рассуждение
+- Истоки ИИ
+  - Rule-Based Systems
+  - CNN
+  - Transformer
+- Обучение LLM
+  - Pretrain
+  - SFT
+  - RLHF
+- Reasoning
+  - Zero-shot Learning
+  - Few-shot Learning
+  - Chain-of-Thought (CoT)
+    - Decomposition
+    - Agents solve subtasks
+    - Evaluate Steps
+    - Synthetic CoT Examples
+- Multi-Step RL
+  - Trajectory of n steps
+  - n-step Q-learning
+  - Faster reward updates
+- Практика
+  - Telegram Doctor Bot
+  - Diagnosis Simulation Game
+  - Testing reasoning via games
+
+## Лекция 2: Устройство LLM и трансформеров
+- Архитектура
+  - Encoder/Decoder
+  - Self-Attention / Cross-Attention
+  - Multi-Head Attention
+  - Embedding + Positional Encoding
+  - Memory Types
+- Ограничения
+  - O(n²)
+  - KV-cache
+  - Плохая генерализация
+  - Масштабирование контекста
+- Оптимизации
+  - Positional Interpolation (PI)
+  - YaRN
+  - Post-тюнинг
+  - Flash Attention
+  - Multi-Query Attention
+  - Grouped-Query Attention
+- Рекуррентные архитектуры
+  - Linear Recurrence
+  - Recurrent Transformers
+  - Griffin, Jamba, xLSTM
+  - Recurrent Memory Transformer (RMT)
+  - Titans (MAC)
+- Reasoning
+  - Chain-of-Thought
+  - Chain-of-Continuous-Thought
+  - Looped Transformers
+  - Adaptive Computation Time
+- BABILong Benchmark
+  - Fact chaining
+  - Induction
+  - Counting
+  - Sets
+
+## Лекция 3: Обучение с подкреплением
+- Основы
+  - MDP
+  - Bellman Equations
+  - Policy Iteration
+  - On/Off Policy
+  - TD Learning
+  - Q-Learning
+- Scaling
+  - Function Approximation
+  - Deadly Triad
+  - Policy Gradients
+- Deep RL
+  - DQN
+  - DDPG
+  - TD3
+  - Experience Replay
+  - Target Networks
+  - Actor-Critic
+- Stable Policy Optimization
+  - TRPO
+  - PPO
+  - Advantage Estimation
+  - SAC
+- Offline RL
+  - AWAC
+  - CQL
+  - IQL
+  - TD3+BC
+  - ReBRAC
+- Meta RL
+  - RL²
+  - MAML
+  - Few-shot Adaptation
+- Beyond Tabula Rasa
+  - RLHF
+  - RLVR
+  - Pretrained Policies
+  - Transfer Learning
+
+## Лекция 4: Эволюция мышления LLM-агентов
+- Эволюция LLM
+  - Next Token Prediction
+  - Scaling Pretraining
+  - Post-training (SFT, RLHF)
+  - Agentic Workflows
+  - LLM-based AGI?
+  - ASI? Self-evolving Systems
+- Классификация моделей
+  - Классические LLM
+  - RL-оптимизированные модели
+  - Рассуждающие модели (LRM)
+  - Саморазвивающиеся системы (AGI/ASI)
+- ReAct: Reasoning + Acting
+  - Reasoning Step
+  - Action Step
+  - Feedback Loop
+- Проблемы и иллюзии
+  - Aha Moment — Иллюзия?
+  - Артефакты обучения
+  - Подтасовка примеров
+  - Бенчмарки поощряют краткость
+  - Env Info (внешний мир)
+- Саморазвивающиеся гибридные системы
+  - AlphaEvolve
+    - Генерация идей (LLM)
+    - Символьный движок → Проверка
+    - RL → Эволюция гипотез
+  - Darwin Godel Machine
+    - Самомодификация кода
+    - Тестирование на бенчмарках
+
+## Лекция 5: Нейронный MCTS и применение
+- Мотивация
+  - AlphaGo, AlphaZero, MuZero
+  - Игры, RAG, Оптимизация
+  - AlphaTensor (умножение матриц)
+- Классический MCTS
+  - Selection → Expansion → Simulation → Backpropagation
+  - UCT формула
+  - Баланс: исследование/эксплуатация
+- AlphaZero и PUCT
+  - PUCT формула
+    - Приоры от нейросети
+    - Баланс Q и P
+    - Обновление дерева
+  - Выбор действий: N или N^1/τ
+- Обучение AlphaZero
+  - Self-Play → Игровые позиции + политики
+  - Loss = Value + Policy + L2
+  - Evaluation (>55%)
+- MuZero
+  - Без знания правил
+  - 3 сети: Representation, Dynamics, Prediction
+- Применение в LLM
+  - LLM как политика + ценность
+  - Планирование на несколько шагов
+  - LLM + MCTS
+    - LLM-MCTS (Zhao 2023)
+    - ReST-MCTS (Zhang 2024)
+    - GDP-ZERO
+    - CPO
+    - SeRTS
+    - XoT
+    - MCTS в текстовых играх
+- EfficientZeroV2
+  - Мало данных, высокая эффективность
+  - Универсальный RL
