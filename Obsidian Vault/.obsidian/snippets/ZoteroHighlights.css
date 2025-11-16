@@ -1,0 +1,49 @@
+/* Самые важные заголовки - светло-красный */
+.customZot-Red {
+    background-color: rgba(255, 100, 100, 0.25) !important;
+}
+
+/* Очень важные заметки - темно-синий */
+.customZot-DarkBlue {
+    background-color: rgba(0, 50, 150, 0.25) !important;
+}
+
+/* Второй уровень - фиолетовый */
+.customZot-Purple {
+    background-color: rgba(200, 100, 255, 0.2) !important;
+}
+
+/* Третий уровень - синий */
+.customZot-Blue {
+    background-color: rgba(0, 0, 255, 0.187) !important;
+}
+
+/* Четвертый уровень - зеленый */
+.customZot-Green {
+    background-color: rgba(0, 255, 47, 0.215) !important;
+}
+
+/* Пятый уровень - желтый */
+.customZot-Yellow {
+    background-color: rgba(255, 204, 0, 0.212) !important;
+}
+
+/* Комментарии - светло-зеленый */
+.custom-comment {
+    background-color: rgba(200, 255, 200, 0.3) !important;
+    border: 1px solid #90ee90;
+    padding: 10px 15px;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+.comment-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #006400;
+}
+
+.comment-text {
+    margin: 0;
+    font-style: normal;
+}

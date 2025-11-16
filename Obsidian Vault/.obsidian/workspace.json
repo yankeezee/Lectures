@@ -13,6 +13,76 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Университет/3 курс/Схемотехника/Лекции Попов/1 модуль.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 модуль"
+            }
+          },
+          {
+            "id": "ec7fd97a434d448f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Машинное обучение/ИАД/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "f560605c6d5fc62e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_zotero/tibshiraniIntroductionStatisticalLearning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tibshiraniIntroductionStatisticalLearning"
+            }
+          },
+          {
+            "id": "bb03eb4a67374a32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RapidBio/Теория.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Теория"
+            }
+          },
+          {
+            "id": "bbc473574add94db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RapidBio/Теория.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Теория"
+            }
+          },
+          {
+            "id": "0ff420f6de3bfbd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "RapidBio/DS Rapid Bio.md",
                 "mode": "source",
                 "source": false
@@ -20,8 +90,105 @@
               "icon": "lucide-file",
               "title": "DS Rapid Bio"
             }
+          },
+          {
+            "id": "e32a19d98ceb9ce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RapidBio/свалка/Математического Аппарата PCA - метода Главных Компонент.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Математического Аппарата PCA - метода Главных Компонент"
+            }
+          },
+          {
+            "id": "54899a60e9ee0742",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "english/Introductions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introductions"
+            }
+          },
+          {
+            "id": "903c3edcc53a3148",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "english/Introductions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introductions"
+            }
+          },
+          {
+            "id": "a6a3df35562eff5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Псевдонаучка/Электронные сны и синаптическая вина.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Электронные сны и синаптическая вина"
+            }
+          },
+          {
+            "id": "ee46c27a3b0f5b74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "english/Introductions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introductions"
+            }
+          },
+          {
+            "id": "9af90a09474eb6f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writing Task 1/Writing Task 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Writing Task 1"
+            }
+          },
+          {
+            "id": "0e5eca4b7072f509",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "english/pics/Pasted image 20251114114443.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251114114443"
+            }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -169,52 +336,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "c61ff37e3fee1c21",
+  "active": "df6e1aa85760c132",
   "lastOpenFiles": [
-    "RapidBio/Теория.md",
-    "RapidBio/DS Rapid Bio.md",
-    "Машинное обучение/ИАД/3 курс/Лекции/Лекция 4 - Оптимизация в глубинном обучении. Свёрточные архитектуры.md",
-    "Машинное обучение/ИАД/3 курс/Лекции/Лекция 5 - Свёрточные архитектуры.md",
-    "Машинное обучение/ИАД/3 курс/Семинары/Семинар 1 - Введение в PyTorch.md",
-    "Машинное обучение/ИАД/3 курс/Семинары/Семинар 2 - Свертка изображений.md",
+    "Writing Task 1/Examples.md",
+    "english/pics/Pasted image 20251114120847.png",
+    "english/pics/Pasted image 20251114120333.png",
+    "Writing Task 1/Writing Task 1.md",
+    "english/pics/Pasted image 20251114115228.png",
+    "english/pics/Pasted image 20251114114448.png",
+    "english/pics/Pasted image 20251114114443.png",
+    "Writing Task 1",
+    "english/Introductions.md",
+    "Псевдонаучка/Практика.md",
+    "Псевдонаучка/Электронные сны и синаптическая вина.md",
+    "Untitled 1.md",
+    "Псевдонаучка",
+    "english/pics/Pasted image 20251021165801.png",
     "Университет/3 курс/Схемотехника/ДЗ1.md",
-    "ОКСИ/functional.drawio",
-    "ОКСИ/Ответы.md",
-    "RapidBio/свалка/Прогнозирование разреженных событий в физиологических временных рядах.md",
-    "Машинное обучение/МО глоссарий.md",
-    "Машинное обучение/Transformer.drawio",
-    "RapidBio/свалка/DDIM и гетероскедастичное обучение.md",
-    "Матан/Источники.md",
-    "RapidBio/свалка",
-    "RapidBio/свалка/Квантизация диффузионных сетей.md",
-    "RapidBio",
-    "Университет/3 курс/Схемотехника/Лекции Попов/1 модуль.md",
-    "Машинное обучение/ИАД/3 курс/Лекции/Лекция 1 – Введение в глубинное обучение.md",
-    "Машинное обучение/ИАД/3 курс/Лекции",
-    "Машинное обучение/ИАД/3 курс/Семинары/Семинар 3 - Классификация изображений.md",
-    "Машинное обучение/ИАД/3 курс/Семинары",
-    "Университет/3 курс/Схемотехника/Лекции Попов/Все лекции/3 - Обратные связи в усилителях и Частотные параметры аналоговых устройств.md",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250930114202.png",
-    "Инфохимия/курс ИТМО/Лекции.md",
-    "Университет/3 курс/Электроника/Лекции Самбурский/Все лекции/4. Ячейки памяти.md",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250930115719.png",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250930115703.png",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250930115643.png",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250930114452.png",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250930114354.png",
+    "Университет/2 курс/Тервер+матстат/Основные понятия.md",
+    "english/pics/Pasted image 20251021180345.png",
+    "RapidBio/Теория.md",
+    "RapidBio/свалка/Latent Space Visualisation - PCA, t-SNE, UMAP.md",
+    "_zotero/ElectronicsLab4.md",
+    "english/pics/Pasted image 20251021174807.png",
+    "RapidBio/DS Rapid Bio.md",
+    "Университет/3 курс/Схемотехника/Лекции Попов/Все лекции/1. Типовые схемотехнические узлы.md",
+    "_zotero/k.v.voroncovMatematicheskieOsnovyMashinnogo.md",
+    "_attachments/k.v.voroncovMatematicheskieOsnovyMashinnogo/image-6-x96-y154.png",
+    "_attachments/k.v.voroncovMatematicheskieOsnovyMashinnogo/image-6-x97-y434.png",
+    "_zotero/tibshiraniIntroductionStatisticalLearning.md",
+    "RapidBio/свалка/t-SNE (t-distributed Stochastic Neighbor Embedding).md",
+    "english/pics",
+    "english",
+    "RapidBio/свалка/Математического Аппарата PCA - метода Главных Компонент.md",
+    "Всикс 3 лаба.md",
+    "RapidBio/свалка/UMAP (Uniform Manifold Approximation and Projection).md",
+    "RapidBio/свалка/Препарируем t-SNE (t-distributed stochastic neighbor embedding).md",
     "Университет/3 курс/Электроника/Лекции Самбурский/3 курс. 1 модуль.md",
-    "Университет/3 курс/Электроника/Лекции Самбурский/Все лекции/3. Цифровые электронные схемы. КМОП-реализация.md",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250926162433.png",
-    "ОКСИ",
-    "Инфохимия/курс ИТМО",
-    "Инфохимия",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250926171526.png",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250926171502.png",
-    "Машинное обучение/ИАД/3 курс/Лекции/Лекция 3 — Свёрточные сети.md",
-    "Машинное обучение/ИАД/3 курс/Лекции/Лекция 2 Обратное распространение ошибки. Свёрточные сети.md",
-    "Машинное обучение/Статьи/A large sensor foundation model pretrained on continuous glucose monitor data for diabetes management.md",
-    "Машинное обучение/ИАД/3 курс",
-    "Университет/3 курс/Электроника/Лекции Самбурский/Все лекции/2. Цифровые электронные схемы. Динамические параметры.md",
-    "Университет/3 курс/Электроника/Картинки/Pasted image 20250916115252.png"
+    "Университет/3 курс/Электроника/Лекции Самбурский/Биполярные транзисторы.md",
+    "_attachments/README.md",
+    "_attachments/k.v.voroncovMatematicheskieOsnovyMashinnogo",
+    "_template/ZOTERO.md",
+    "Машинное обучение/ИАД/Untitled.md",
+    "_attachments/ElectronicsLab4",
+    "_zotero",
+    "_template",
+    "_attachments",
+    "ОКСИ/functional.drawio"
   ]
 }
