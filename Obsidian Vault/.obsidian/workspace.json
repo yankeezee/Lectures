@@ -186,9 +186,37 @@
               "icon": "lucide-image",
               "title": "Pasted image 20251114114443"
             }
+          },
+          {
+            "id": "5d777ea68b36fd70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "english/Writing Task 1/Examples.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Examples"
+            }
+          },
+          {
+            "id": "78db6eeb7f6a6941",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "english/Introductions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introductions"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -336,34 +364,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "df6e1aa85760c132",
+  "active": "78db6eeb7f6a6941",
   "lastOpenFiles": [
-    "Writing Task 1/Examples.md",
-    "english/pics/Pasted image 20251114120847.png",
-    "english/pics/Pasted image 20251114120333.png",
-    "Writing Task 1/Writing Task 1.md",
-    "english/pics/Pasted image 20251114115228.png",
-    "english/pics/Pasted image 20251114114448.png",
-    "english/pics/Pasted image 20251114114443.png",
-    "Writing Task 1",
+    "Untitled.md",
+    "Pasted image 20251117120944.png",
+    "Pasted image 20251117120803.png",
+    "Pasted image 20251117120657.png",
+    "Pasted image 20251117120332.png",
+    "english/Writing Task 1/Examples.md",
     "english/Introductions.md",
     "Псевдонаучка/Практика.md",
+    "Псевдонаучка/Результаты.md",
     "Псевдонаучка/Электронные сны и синаптическая вина.md",
+    "Pasted image 20251116115718.png",
+    "Pasted image 20251116115650.png",
+    "Pasted image 20251116115639.png",
+    "Pasted image 20251116115628.png",
     "Untitled 1.md",
+    "english/pics/Pasted image 20251114114443.png",
+    "english/pics/Pasted image 20251114120847.png",
+    "english/Writing Task 1/Writing Task 1.md",
+    "english/Writing Task 1",
     "Псевдонаучка",
-    "english/pics/Pasted image 20251021165801.png",
     "Университет/3 курс/Схемотехника/ДЗ1.md",
     "Университет/2 курс/Тервер+матстат/Основные понятия.md",
-    "english/pics/Pasted image 20251021180345.png",
     "RapidBio/Теория.md",
     "RapidBio/свалка/Latent Space Visualisation - PCA, t-SNE, UMAP.md",
     "_zotero/ElectronicsLab4.md",
-    "english/pics/Pasted image 20251021174807.png",
     "RapidBio/DS Rapid Bio.md",
     "Университет/3 курс/Схемотехника/Лекции Попов/Все лекции/1. Типовые схемотехнические узлы.md",
     "_zotero/k.v.voroncovMatematicheskieOsnovyMashinnogo.md",
-    "_attachments/k.v.voroncovMatematicheskieOsnovyMashinnogo/image-6-x96-y154.png",
-    "_attachments/k.v.voroncovMatematicheskieOsnovyMashinnogo/image-6-x97-y434.png",
     "_zotero/tibshiraniIntroductionStatisticalLearning.md",
     "RapidBio/свалка/t-SNE (t-distributed Stochastic Neighbor Embedding).md",
     "english/pics",
@@ -376,8 +406,6 @@
     "Университет/3 курс/Электроника/Лекции Самбурский/Биполярные транзисторы.md",
     "_attachments/README.md",
     "_attachments/k.v.voroncovMatematicheskieOsnovyMashinnogo",
-    "_template/ZOTERO.md",
-    "Машинное обучение/ИАД/Untitled.md",
     "_attachments/ElectronicsLab4",
     "_zotero",
     "_template",
