@@ -2,5 +2,10 @@
   "obsidian-mind-map",
   "mindmap",
   "obsidian-tasks-plugin",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "templater-obsidian",
+  "dataview",
+  "obsidian-banners",
+  "obsidian-admonition",
+  "obsidian-react-components"
 ]

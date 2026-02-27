@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
-    "ZoteroHighlights"
+    "ZoteroHighlights",
+    "custom-admonitions.a6466e"
   ]
 }

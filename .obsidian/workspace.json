@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "4c2764c079c7beab",
+    "type": "split",
+    "children": [
+      {
+        "id": "45f48cbb5814645e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb4b68eb4618e9d1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian Vault/БиоХем/Биосинк/все/Экспертная сессия «Стартап-экосистема_ создание пространства роста….pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Экспертная сессия «Стартап-экосистема_ создание пространства роста…"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d037a3ac5d509be",
+    "type": "split",
+    "children": [
+      {
+        "id": "30e39ce1c5b7ec3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43cd2649921c5c2a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7fa2eb1732c9c226",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cc3260a50cdd1cda",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1fa7d5f1d075d03d",
+    "type": "split",
+    "children": [
+      {
+        "id": "42859608f0d6f9ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a27f53d2a3cdcf9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian Vault/БиоХем/Биосинк/все/Экспертная сессия «Стартап-экосистема_ создание пространства роста….pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Экспертная сессия «Стартап-экосистема_ создание пространства роста…"
+            }
+          },
+          {
+            "id": "4b67c0bf265549dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Obsidian Vault/БиоХем/Биосинк/все/Экспертная сессия «Стартап-экосистема_ создание пространства роста….pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Экспертная сессия «Стартап-экосистема_ создание пространства роста…"
+            }
+          },
+          {
+            "id": "52a4203d5dc05671",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "398c0ffd9f9cf57e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a0d1204de75cfd9b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian Vault/БиоХем/Биосинк/все/Экспертная сессия «Стартап-экосистема_ создание пространства роста….pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Экспертная сессия «Стартап-экосистема_ создание пространства роста…"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "eb4b68eb4618e9d1",
+  "lastOpenFiles": [
+    "Obsidian Vault/БиоХем/Биосинк/все/Экспертная сессия «Стартап-экосистема создание пространства роста».md",
+    "Obsidian Vault/БиоХем/Биосинк/все/пленарная сессия «Биотехнологии в части обеспечения национальных целей».md",
+    "Obsidian Vault/БиоХем/Биосинк/все/Пленарная сессия.pdf",
+    "Obsidian Vault/БиоХем/Биосинк/все/пленарная викторина «Битва мнений- реальная формула кадров».md",
+    "Obsidian Vault/БиоХем/Биосинк/все/Инженерия кадров. как соединить образование, практику и индустриальные задачи.md",
+    "Obsidian Vault/БиоХем/Биосинк/Биосинк.md"
+  ]
+}
